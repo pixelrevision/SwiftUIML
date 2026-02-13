@@ -1,35 +1,22 @@
 name: CI
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '**/*.swift'
-      - '**/*.ts'
-      - '**/*.js'
-      - '**/*.json'
-      - 'Makefile'
-      - '.github/workflows/**'
   pull_request:
-    branches: [main]
-    paths:
-      - '**/*.swift'
-      - '**/*.ts'
-      - '**/*.js'
-      - '**/*.json'
-      - 'Makefile'
-      - '.github/workflows/**'
+    branches:
+      - main
+  push:
+    branches:
+      - main
 
 jobs:
   test:
-    # Only run on push or non-fork PRs (fork PRs have different head repo)
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
-    name: Test & Lint
+    name: Run Tests
     runs-on: macos-15
     timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,11 +29,23 @@ jobs:
         working-directory: TypeScript
         run: npm ci
 
-      - name: Install tools
+      - name: Install dependencies
         run: brew install swiftlint xcbeautify
 
-      - name: Lint
-        run: make lint
+      - name: Lint Swift code
+        run: make packagelint
 
-      - name: Test
-        run: make test
+      - name: Lint TypeScript code
+        run: make tslint
+
+      - name: Run SwiftUIMLCore tests
+        run: make coretest
+
+      - name: Run Swift snapshot tests
+        run: make snapshottest
+
+      - name: Run TypeScript tests
+        run: make tstest
+
+      - name: Run TypeScript snapshot validation
+        run: make tssnapshottest
