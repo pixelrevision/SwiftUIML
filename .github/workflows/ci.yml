@@ -4,9 +4,29 @@ on:
   pull_request:
     branches:
       - main
+      - 'release/*'
+      - 'feat/*'
+    paths:
+      - '**/*.swift'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.json'
+      - '**/*.sh'
+      - 'Makefile'
+      - '**/*.yml'
+      - '**/.prettierrc'
   push:
     branches:
       - main
+    paths:
+      - '**/*.swift'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.json'
+      - '**/*.sh'
+      - 'Makefile'
+      - '**/*.yml'
+      - '**/.prettierrc'
 
 jobs:
   test:
