@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 import SwiftUIMLCore
 extension Color {
   init?(_ value: AttributeValue) {
@@ -84,7 +85,7 @@ extension Color {
   }
 }
 
-private struct HexColor {
+struct HexColor {
   /// Create a Color from a hex string, supporting optional alpha and dark/light mode variations
   /// Format examples:
   /// - "#FF0000" (simple hex, fully opaque)
@@ -119,21 +120,52 @@ private struct HexColor {
     }
   }
   
-  /// Convert hex string to UIColor
-  private static func colorFromHex(_ hex: String) -> UIColor {
+  /// Convert hex string to UIColor, supporting light:dark mode variants
+  /// Format examples:
+  /// - "#FF0000" (simple hex)
+  /// - "#FF0000:#000000" (light:dark mode variants)
+  static func colorFromHex(_ hex: String) -> UIColor {
+    // Check if we have light/dark variants
+    let components = hex.split(separator: ":")
+
+    if components.count == 2 {
+      // We have light/dark variants
+      let lightVariant = String(components[0])
+      let darkVariant = String(components[1])
+
+      // Use dynamicProvider to create a UIColor that changes based on trait collection
+      return UIColor { traitCollection in
+        switch traitCollection.userInterfaceStyle {
+        case .dark:
+          return parseHex(darkVariant)
+        case .light, .unspecified:
+          return parseHex(lightVariant)
+        @unknown default:
+          return parseHex(lightVariant)
+        }
+      }
+    }
+    else {
+      // Single color for both modes
+      return parseHex(hex)
+    }
+  }
+
+  /// Parse a single hex color string
+  private static func parseHex(_ hex: String) -> UIColor {
     var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
     hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
-    
+
     var rgb: UInt64 = 0
     Scanner(string: hexSanitized).scanHexInt64(&rgb)
-    
+
     if hexSanitized.count == 8 {
       // #RRGGBBAA format
       let r = Double((rgb & 0xFF000000) >> 24) / 255.0
       let g = Double((rgb & 0x00FF0000) >> 16) / 255.0
       let b = Double((rgb & 0x0000FF00) >> 8) / 255.0
       let a = Double(rgb & 0x000000FF) / 255.0
-      
+
       return UIColor(red: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: CGFloat(a))
     }
     else if hexSanitized.count == 6 {
@@ -141,7 +173,7 @@ private struct HexColor {
       let r = Double((rgb & 0xFF0000) >> 16) / 255.0
       let g = Double((rgb & 0x00FF00) >> 8) / 255.0
       let b = Double(rgb & 0x0000FF) / 255.0
-      
+
       return UIColor(red: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: 1.0)
     }
     else {
