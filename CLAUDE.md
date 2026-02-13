@@ -27,7 +27,7 @@ Sources/
     ViewRendering/        # One file per view type renderer
     ModifierRendering/    # One file per modifier renderer
     Views/                # Reusable SwiftUI view components
-    MessageQueue.swift    # Bidirectional messaging (host ↔ component)
+    MessageQueue.swift    # Bidirectional messaging (host <-> component)
 Tests/
   SwiftUIMLCoreTests/     # Unit tests for data model and DSL
   SwiftUIMLTests/         # Snapshot tests for renderers (Swift + TypeScript cross-validation)
@@ -63,16 +63,16 @@ Prerequisites: iOS 18.4 simulator (auto-created by `Scripts/sim.sh`), [xcbeautif
 
 ## Documentation
 
-- [Design](Docs/Design.md) — Architecture and design decisions
-- [Testing](Docs/Testing.md) — Multi-language test infrastructure and validation
-- [Messages](Docs/Messages.md) — Messaging patterns and how they fit in
-- [Environment](Docs/Environment.md) — Custom renderers via SwiftUI environment
-- [TypeScript DSL](TypeScript/README.md) — TypeScript package usage and API
+- [Design](Docs/Design.md) - Architecture and design decisions
+- [Testing](Docs/Testing.md) - Multi-language test infrastructure and validation
+- [Messages](Docs/Messages.md) - Messaging patterns and how they fit in
+- [Environment](Docs/Environment.md) - Custom renderers via SwiftUI environment
+- [TypeScript DSL](TypeScript/README.md) - TypeScript package usage and API
 
 ## Code Style
 
 - 2-space indentation
 - 120 character line length (warning), 150 (error)
 - Trailing commas in multi-line collections
-- No force unwraps — use safe optional handling
+- No force unwraps - use safe optional handling
 - No `print()` in production code

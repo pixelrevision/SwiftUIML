@@ -3,7 +3,7 @@
 **Data-driven SwiftUI rendering.**
 Define UI as data, render it as native SwiftUI.
 
-SwiftUIML lets you describe your UI as a simple tree of nodes — in Swift, TypeScript, or raw JSON — and render it as fully native SwiftUI. This is useful when your UI needs to change without shipping a new app version: server-driven interfaces, A/B tests, CMS-managed layouts, or any scenario where UI structure is determined at runtime rather than compile time.
+SwiftUIML lets you describe your UI as a simple tree of nodes - in Swift, TypeScript, or raw JSON - and render it as fully native SwiftUI. This is useful when your UI needs to change without shipping a new app version: server-driven interfaces, A/B tests, CMS-managed layouts, or any scenario where UI structure is determined at runtime rather than compile time.
 
 **Includes:**
 - Swift Package Manager DSL (platform agnostic) for building layouts
@@ -56,7 +56,7 @@ UI is represented as a tree of `Node` objects with:
 - **Modifiers**: `.padding(20)`, `.bold()`, `.foregroundColor("red")`
 - **Containers**: `VStack`, `HStack`, `ZStack`, `ScrollView`, `LazyVStack`
 - **Views**: `Text`, `Button`, `Image`, `AsyncImage`, shapes, gradients
-- **Messaging**: User taps button → message passed through closure
+- **Messaging**: User taps button -> message passed through closure
 
 Client renders:
 - Native SwiftUI views
@@ -106,7 +106,7 @@ ScrollViewNode(.vertical) {
 
 ## JSON Format
 
-Since nodes are just data, they serialize naturally to JSON. Attributes are 2D arrays for order preservation (deserialized as `OrderedMultiDictionary` for O(1) lookup, supporting duplicate keys):
+Since nodes are just data, they serialize naturally to JSON. Attributes are stored as 2D arrays for order preservation (deserialized as `OrderedMultiDictionary` for O(1) lookup, supporting duplicate keys):
 
 ```json
 {
@@ -196,7 +196,7 @@ TextNode("Title")
 
 ## Architecture
 
-Under the hood, SwiftUIML maps each node type to a native SwiftUI renderer and applies modifiers in order. The system is designed to be extended — you can add custom view types and modifiers without touching the core.
+Under the hood, SwiftUIML maps each node type to a native SwiftUI renderer and applies modifiers in order. The system is designed to be extended - you can add custom view types and modifiers without touching the core.
 
 ### Core Components
 - **Node**: Immutable data structure (type, attributes, children)
@@ -260,7 +260,7 @@ graph TD
 
 SwiftUIML supports bidirectional messaging:
 
-**Outbound (Component → Host):** Components send user interactions and events to the host via `messageHandler`. NodeView wraps messages with context (nodeId, component-specific fields).
+**Outbound (Component -> Host):** Components send user interactions and events to the host via `messageHandler`. NodeView wraps messages with context (nodeId, component-specific fields).
 
 ```swift
 NodeView(node) { message in
@@ -269,7 +269,7 @@ NodeView(node) { message in
 }
 ```
 
-**Inbound (Host → Component):** The host sends commands to specific components via `MessageQueue`. Components listen with `.onMessage(nodeId:)`.
+**Inbound (Host -> Component):** The host sends commands to specific components via `MessageQueue`. Components listen with `.onMessage(nodeId:)`.
 
 ```swift
 let messageQueue = MessageQueue()
@@ -350,9 +350,9 @@ dependencies: [
 
 ## Use Cases
 
-- **Dynamic UIs**: A settings screen or onboarding flow that changes structure at runtime — from a server, a local config, or an embedded script — without requiring an app update.
+- **Dynamic UIs**: A settings screen or onboarding flow that changes structure at runtime - from a server, a local config, or an embedded script - without requiring an app update.
 - **A/B testing**: Serve different UI layouts to different user segments and measure engagement, controlled from the backend.
-- **Personalization**: Deliver user-specific layouts — a dashboard that adapts to each user's role, preferences, or subscription tier.
+- **Personalization**: Deliver user-specific layouts - a dashboard that adapts to each user's role, preferences, or subscription tier.
 - **CMS-driven**: Let a content team compose and publish app screens (e.g., promotional pages, feature announcements) without developer involvement.
 - **Rapid iteration**: Update UI logic during development or internal testing without waiting for a full build cycle.
 - **Embedded scripting**: Pair with an embedded JavaScript runtime (e.g., JavaScriptCore) to generate and update UI on-device between App Store releases.

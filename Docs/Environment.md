@@ -9,14 +9,14 @@ SwiftUIML uses SwiftUI's `@Environment` system to pass configuration down the vi
 1. **`renderContext`** - Registry of view and modifier renderers
 2. **`messageQueue`** - Channel for host -> component messages
 
-Most users won't need to touch either of these — the defaults cover all built-in SwiftUI views and modifiers. Custom configuration becomes useful when you need to add domain-specific views, override how a built-in type renders, or set up host-to-component communication.
+Most users won't need to touch either of these - the defaults cover all built-in SwiftUI views and modifiers. Custom configuration becomes useful when you need to add domain-specific views, override how a built-in type renders, or set up host-to-component communication.
 
 ## When Would You Need This?
 
-- **Branded components**: Your design system has a custom button style that all `Button` nodes should use — override the default `ButtonRenderer`.
-- **Domain-specific views**: Your app has a video player, map view, or chart that doesn't exist in SwiftUI's standard library — register a custom `ViewRenderer`.
-- **Custom modifiers**: You want a `.glow()` or `.shimmer()` modifier that applies a specific visual effect — register a custom `ModifierRenderer`.
-- **Host-to-component control**: You need to send commands to a rendered component (e.g., "play", "pause", "refresh") — set up a `MessageQueue`.
+- **Branded components**: Your design system has a custom button style that all `Button` nodes should use - override the default `ButtonRenderer`.
+- **Domain-specific views**: Your app has a video player, map view, or chart that doesn't exist in SwiftUI's standard library - register a custom `ViewRenderer`.
+- **Custom modifiers**: You want a `.glow()` or `.shimmer()` modifier that applies a specific visual effect - register a custom `ModifierRenderer`.
+- **Host-to-component control**: You need to send commands to a rendered component (e.g., "play", "pause", "refresh") - set up a `MessageQueue`.
 
 ## Render Context
 
