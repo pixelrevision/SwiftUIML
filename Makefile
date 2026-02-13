@@ -2,7 +2,7 @@
 
 SIM_NAME := SwiftUIML-Test
 SIM_DEVICE := com.apple.CoreSimulator.SimDeviceType.iPhone-16
-SIM_RUNTIME := com.apple.CoreSimulator.SimRuntime.iOS-18-4
+SIM_RUNTIME := com.apple.CoreSimulator.SimRuntime.iOS-18-5
 SCHEME := SwiftUIML
 
 packagebuild:
