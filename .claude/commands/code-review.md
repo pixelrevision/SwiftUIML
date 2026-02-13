@@ -34,7 +34,7 @@ Automatically detect whether to review:
 - Nested nodes use `$type: "node"` discriminator
 
 ### General
-- No sensitive data, debug prints, or unresolved TODOs
+- No sensitive data, debug prints (excluding `#Preview` blocks), or unresolved TODOs
 - Public APIs documented
 - Attribute order preserved (critical for modifiers)
 - Backward compatible JSON serialization
