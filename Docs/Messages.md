@@ -52,7 +52,8 @@ ButtonNode("Tap Me", onTap: "button.tapped")
 
 **TextField:**
 ```swift
-TextFieldNode("Name", text: name, onTextChange: "text.changed")
+TextFieldNode("Name", value: name)
+  .onTextChange("text.changed")
 ```
 ```json
 {
@@ -68,8 +69,8 @@ TextFieldNode("Name", text: name, onTextChange: "text.changed")
 **Lifecycle:**
 ```swift
 VStackNode { ... }
-  .onAppear(message: "vstack.appeared")
-  .onDisappear(message: "vstack.disappeared")
+  .onAppear("vstack.appeared")
+  .onDisappear("vstack.disappeared")
 ```
 
 ### Message Flow

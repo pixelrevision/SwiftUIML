@@ -48,4 +48,4 @@ Report findings as a message: executive summary, issues by category (API accurac
 - Read actual source files — don't assume docs are correct
 - Check every code example
 - Flag contradictions between docs
-- Verify version requirements (iOS 18.4, simulator, etc.)
+- Verify version requirements (iOS 18.5, simulator, etc.)
