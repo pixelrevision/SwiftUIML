@@ -1,0 +1,30 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "test"
+    ],
+    [
+      "frame",
+      {
+        "maxWidth": "$infinity"
+      }
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

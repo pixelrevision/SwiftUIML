@@ -1,0 +1,132 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 70,
+                "height": 70
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 70,
+                "height": 70
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 45,
+                "anchor": "center"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "45°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

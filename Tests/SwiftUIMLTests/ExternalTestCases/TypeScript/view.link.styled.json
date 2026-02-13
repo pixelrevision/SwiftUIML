@@ -1,0 +1,74 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      15
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Link",
+      "attributes": [
+        [
+          "title",
+          "Default Link"
+        ],
+        [
+          "url",
+          "https://example.com"
+        ]
+      ]
+    },
+    {
+      "type": "Link",
+      "attributes": [
+        [
+          "title",
+          "Styled Link"
+        ],
+        [
+          "url",
+          "https://example.com"
+        ],
+        [
+          "font",
+          "title3"
+        ],
+        [
+          "foregroundColor",
+          "#007AFF"
+        ]
+      ]
+    },
+    {
+      "type": "Link",
+      "attributes": [
+        [
+          "title",
+          "Large Link"
+        ],
+        [
+          "url",
+          "https://example.com"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "bold",
+          true
+        ]
+      ]
+    }
+  ]
+}

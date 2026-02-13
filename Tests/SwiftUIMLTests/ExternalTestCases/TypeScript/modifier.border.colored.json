@@ -1,0 +1,20 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Border"
+    ],
+    [
+      "padding",
+      8
+    ],
+    [
+      "border",
+      {
+        "color": "#FF3B30:#FF9500",
+        "width": 2
+      }
+    ]
+  ]
+}

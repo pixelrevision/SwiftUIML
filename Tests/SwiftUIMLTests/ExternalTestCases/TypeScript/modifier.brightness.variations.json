@@ -1,0 +1,219 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "brightness",
+          -0.5
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "-0.5"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "brightness",
+          0
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0.0"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "brightness",
+          0.5
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0.5"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "brightness",
+          1
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "1.0"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

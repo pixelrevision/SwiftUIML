@@ -1,0 +1,30 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "test"
+    ],
+    [
+      "frame",
+      {
+        "height": 60
+      }
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF9500:#FF9F0A"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

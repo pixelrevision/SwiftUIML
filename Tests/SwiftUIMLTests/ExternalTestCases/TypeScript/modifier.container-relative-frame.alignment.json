@@ -1,0 +1,117 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      0
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Top"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 0,
+            "alignment": "top"
+          }
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#FF3B30:#FF453A"
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Center"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 0,
+            "alignment": "center"
+          }
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#34C759:#30D158"
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Bottom"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 0,
+            "alignment": "bottom"
+          }
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#007AFF:#0A84FF"
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}

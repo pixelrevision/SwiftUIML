@@ -1,0 +1,213 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          5
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Equal"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "gray"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Equal"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "gray"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Equal"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "gray"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          5
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Low"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "red"
+            ],
+            [
+              "layoutPriority",
+              0
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "High"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "green"
+            ],
+            [
+              "layoutPriority",
+              1
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Low"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 14
+              }
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "backgroundColor",
+              "red"
+            ],
+            [
+              "layoutPriority",
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

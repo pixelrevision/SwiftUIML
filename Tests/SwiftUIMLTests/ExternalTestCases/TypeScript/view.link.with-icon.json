@@ -1,0 +1,48 @@
+{
+  "type": "Link",
+  "attributes": [
+    [
+      "url",
+      "https://apple.com"
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          6
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Apple"
+            ]
+          ]
+        },
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "systemName",
+              "arrow.up.right.square"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

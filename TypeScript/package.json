@@ -1,0 +1,27 @@
+{
+  "name": "swiftuiml-typescript",
+  "version": "0.1.0",
+  "description": "TypeScript library for SwiftUIML",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "npm run build && node --test ./dist/tests/*.test.js",
+    "test:watch": "npm run build && node --test --watch ./dist/tests/*.test.js",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"scripts/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"scripts/**/*.ts\"",
+    "generate:test-cases": "npm run build && node ./dist/tests/standardized-suite/generate.js"
+  },
+  "keywords": [
+    "swiftuiml",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}

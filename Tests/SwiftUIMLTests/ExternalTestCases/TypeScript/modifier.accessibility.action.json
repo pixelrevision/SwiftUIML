@@ -1,0 +1,47 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Refresh"
+        ],
+        [
+          "accessibilityAction",
+          {
+            "name": "Reload",
+            "message": "refresh"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Text with custom action"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

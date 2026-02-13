@@ -1,0 +1,135 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      32
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 45,
+                "anchor": "center"
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Not Clipped"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 45,
+                "anchor": "center"
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "clipped",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Clipped"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

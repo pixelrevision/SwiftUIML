@@ -1,0 +1,45 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#007AFF:#0A84FF"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 60
+      }
+    ],
+    [
+      "overlay",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Clipped"
+            ],
+            [
+              "foregroundColor",
+              "#FFFFFF:#000000"
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "clipShape",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Capsule",
+          "attributes": []
+        }
+      }
+    ]
+  ]
+}

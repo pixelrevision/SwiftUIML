@@ -1,0 +1,38 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "test"
+    ],
+    [
+      "padding",
+      12
+    ],
+    [
+      "background",
+      {
+        "value": {
+          "$type": "node",
+          "value": {
+            "type": "Circle",
+            "attributes": [
+              [
+                "fill",
+                "#FF3B3033:#FF453A33"
+              ],
+              [
+                "frame",
+                {
+                  "width": 40,
+                  "height": 40
+                }
+              ]
+            ]
+          }
+        },
+        "alignment": "topLeading"
+      }
+    ]
+  ]
+}

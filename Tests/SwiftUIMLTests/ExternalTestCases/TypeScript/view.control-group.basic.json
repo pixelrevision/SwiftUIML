@@ -1,0 +1,54 @@
+{
+  "type": "ControlGroup",
+  "attributes": [
+    [
+      "buttonStyle",
+      "bordered"
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Bold"
+        ],
+        [
+          "onTap",
+          "bold"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Italic"
+        ],
+        [
+          "onTap",
+          "italic"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Underline"
+        ],
+        [
+          "onTap",
+          "underline"
+        ]
+      ]
+    }
+  ]
+}

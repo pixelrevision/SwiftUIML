@@ -1,0 +1,46 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#00FF00:#FF0000"
+        ]
+      ]
+    },
+    {
+      "type": "Spacer",
+      "attributes": []
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#00FF00:#FF0000"
+        ]
+      ]
+    },
+    {
+      "type": "Spacer",
+      "attributes": []
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#00FF00:#FF0000"
+        ]
+      ]
+    }
+  ]
+}

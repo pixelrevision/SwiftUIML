@@ -1,0 +1,110 @@
+{
+  "type": "NavigationStack",
+  "attributes": [
+    [
+      "navigationTitle",
+      "Home"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ],
+        [
+          "navigationDestination",
+          {
+            "value": "detail",
+            "isPresented": true,
+            "content": {
+              "$type": "node",
+              "value": {
+                "type": "VStack",
+                "attributes": [
+                  [
+                    "alignment",
+                    "center"
+                  ],
+                  [
+                    "spacing",
+                    16
+                  ],
+                  [
+                    "padding",
+                    null
+                  ],
+                  [
+                    "navigationBarBackButtonHidden",
+                    false
+                  ],
+                  [
+                    "navigationTitle",
+                    "Details"
+                  ]
+                ],
+                "children": [
+                  {
+                    "type": "Text",
+                    "attributes": [
+                      [
+                        "text",
+                        "Detail View"
+                      ],
+                      [
+                        "font",
+                        "title"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "Text",
+                    "attributes": [
+                      [
+                        "text",
+                        "Back button is visible"
+                      ],
+                      [
+                        "font",
+                        "caption"
+                      ],
+                      [
+                        "foregroundColor",
+                        "#8E8E93:#8E8E93"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Home Screen"
+            ],
+            [
+              "font",
+              "body"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Original"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ],
+            [
+              "hueRotation",
+              180
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "180° Rotated"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "name",
+          "star.fill"
+        ],
+        [
+          "bundle",
+          "swiftuiml.SwiftUIMLTests.resources"
+        ],
+        [
+          "accessibilityLabel",
+          "Favorite star"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Image with label"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

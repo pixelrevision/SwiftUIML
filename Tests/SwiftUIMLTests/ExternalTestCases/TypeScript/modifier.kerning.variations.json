@@ -1,0 +1,71 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Normal kerning"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Tight kerning"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ],
+        [
+          "kerning",
+          -2
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Loose kerning"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ],
+        [
+          "kerning",
+          5
+        ]
+      ]
+    }
+  ]
+}

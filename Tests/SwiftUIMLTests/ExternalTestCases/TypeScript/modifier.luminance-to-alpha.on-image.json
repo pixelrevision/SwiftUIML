@@ -1,0 +1,121 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 70,
+                "height": 70
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 70,
+                "height": 70
+              }
+            ],
+            [
+              "luminanceToAlpha",
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

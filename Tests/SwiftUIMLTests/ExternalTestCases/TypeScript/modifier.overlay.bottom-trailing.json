@@ -1,0 +1,41 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#34C75933:#30D15833"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 100
+      }
+    ],
+    [
+      "overlay",
+      {
+        "value": {
+          "$type": "node",
+          "value": {
+            "type": "Circle",
+            "attributes": [
+              [
+                "fill",
+                "#FF9500:#FF9F0A"
+              ],
+              [
+                "frame",
+                {
+                  "width": 20,
+                  "height": 20
+                }
+              ]
+            ]
+          }
+        },
+        "alignment": "bottomTrailing"
+      }
+    ]
+  ]
+}

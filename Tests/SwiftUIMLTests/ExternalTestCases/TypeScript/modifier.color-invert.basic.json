@@ -1,0 +1,113 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 100
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Original"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 100
+              }
+            ],
+            [
+              "colorInvert",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Inverted"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 12
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

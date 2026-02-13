@@ -1,0 +1,24 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "text"
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF375F:#FF453A"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

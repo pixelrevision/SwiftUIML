@@ -1,0 +1,589 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      8
+    ],
+    [
+      "padding",
+      8
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "25w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 25
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "50w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 50
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "75w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 75
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "100w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 100
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "125w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 125
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          2
+        ],
+        [
+          "backgroundColor",
+          "#AEAEB233:#3A3A3C33"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "150w"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#98989D"
+            ],
+            [
+              "frame",
+              {
+                "width": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "clear"
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity"
+              }
+            ],
+            [
+              "responsive",
+              [
+                {
+                  "pattern": "w>=50,w<100",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=100,w<150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                },
+                {
+                  "pattern": "w>=150",
+                  "attributes": [
+                    [
+                      "backgroundColor",
+                      "#34C759:#30D158"
+                    ]
+                  ]
+                }
+              ]
+            ],
+            [
+              "frame",
+              {
+                "width": 150
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

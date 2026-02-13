@@ -1,0 +1,40 @@
+{
+  "type": "SecureField",
+  "attributes": [
+    [
+      "placeholder",
+      "Enter password"
+    ],
+    [
+      "value",
+      "secret123"
+    ],
+    [
+      "padding",
+      10
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#F5F5F5"
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "cornerRadius",
+      8
+    ],
+    [
+      "padding",
+      20
+    ]
+  ]
+}

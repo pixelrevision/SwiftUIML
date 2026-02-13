@@ -1,0 +1,13 @@
+{
+  "type": "Image",
+  "attributes": [
+    [
+      "systemName",
+      "heart.fill"
+    ],
+    [
+      "foregroundColor",
+      "#FF0000:#FF69B4"
+    ]
+  ]
+}

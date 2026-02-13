@@ -1,0 +1,163 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Scale factor 1.0 (no scaling)"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 24
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 120
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "minimumScaleFactor",
+          1
+        ],
+        [
+          "border",
+          {
+            "color": "gray",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Scale factor 0.8"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 24
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 120
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "minimumScaleFactor",
+          0.8
+        ],
+        [
+          "border",
+          {
+            "color": "gray",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Scale factor 0.5"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 24
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 120
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "minimumScaleFactor",
+          0.5
+        ],
+        [
+          "border",
+          {
+            "color": "gray",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Scale factor 0.2"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 24
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 120
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "minimumScaleFactor",
+          0.2
+        ],
+        [
+          "border",
+          {
+            "color": "gray",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

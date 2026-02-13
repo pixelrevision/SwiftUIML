@@ -1,0 +1,33 @@
+{
+  "type": "List",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Item 1"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Item 2"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Item 3"
+        ]
+      ]
+    }
+  ]
+}

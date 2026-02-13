@@ -1,0 +1,128 @@
+{
+  "type": "List",
+  "attributes": [
+    [
+      "listStyle",
+      "insetGrouped"
+    ],
+    [
+      "frame",
+      {
+        "width": 300,
+        "height": 250
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Default"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#E5E5EA:#636366"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Custom (40L, 20T/B)"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#D1D1D6:#48484A"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ],
+        [
+          "listRowInsets",
+          {
+            "top": 20,
+            "leading": 40,
+            "bottom": 20,
+            "trailing": 40
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Zero"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#AEAEB2:#3A3A3C"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ],
+        [
+          "listRowInsets",
+          {
+            "top": 0,
+            "leading": 0,
+            "bottom": 0,
+            "trailing": 0
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    }
+  ]
+}

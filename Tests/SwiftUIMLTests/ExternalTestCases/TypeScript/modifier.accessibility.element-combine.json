@@ -1,0 +1,68 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "accessibilityElement",
+          "combine"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "First"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Second"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Children: combine"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      null
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Normal Text"
+        ],
+        [
+          "font",
+          "title"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Loading Content..."
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "redacted",
+          "placeholder"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          10
+        ]
+      ],
+      "children": [
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#3498DB:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "width": 50,
+                "height": 50
+              }
+            ],
+            [
+              "redacted",
+              "placeholder"
+            ]
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "leading"
+            ],
+            [
+              "redacted",
+              "placeholder"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "User Name"
+                ],
+                [
+                  "font",
+                  "headline"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "user@example.com"
+                ],
+                [
+                  "font",
+                  "caption"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

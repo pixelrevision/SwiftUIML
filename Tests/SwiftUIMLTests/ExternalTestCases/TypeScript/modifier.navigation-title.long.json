@@ -1,0 +1,43 @@
+{
+  "type": "NavigationStack",
+  "attributes": [
+    [
+      "navigationTitle",
+      "This is a Very Long Navigation Title"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Content Area"
+            ],
+            [
+              "font",
+              "body"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

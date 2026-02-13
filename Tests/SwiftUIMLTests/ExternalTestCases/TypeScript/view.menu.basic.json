@@ -1,0 +1,106 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ],
+    [
+      "padding",
+      null
+    ]
+  ],
+  "children": [
+    {
+      "type": "Menu",
+      "attributes": [
+        [
+          "label",
+          "Actions"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Paste"
+            ],
+            [
+              "onTap",
+              "paste"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Delete"
+            ],
+            [
+              "onTap",
+              "delete"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Menu",
+      "attributes": [
+        [
+          "label",
+          "Share"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Email"
+            ],
+            [
+              "onTap",
+              "email"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Messages"
+            ],
+            [
+              "onTap",
+              "messages"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "AirDrop"
+            ],
+            [
+              "onTap",
+              "airdrop"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

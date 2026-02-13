@@ -1,0 +1,82 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Automatic"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "bordered"
+        ],
+        [
+          "buttonBorderShape",
+          "automatic"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Capsule"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "bordered"
+        ],
+        [
+          "buttonBorderShape",
+          "capsule"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Rounded Rectangle"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "bordered"
+        ],
+        [
+          "buttonBorderShape",
+          "roundedRectangle"
+        ]
+      ]
+    }
+  ]
+}

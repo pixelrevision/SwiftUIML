@@ -1,0 +1,119 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      24
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "systemName",
+              "star.fill"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "foregroundColor",
+              "#FF9500"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "60x60"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "systemName",
+              "heart.fill"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ],
+            [
+              "foregroundColor",
+              "#FF3B30"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "80x80"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "accessibilityElement",
+          "ignore"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Decorative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Children: ignore"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

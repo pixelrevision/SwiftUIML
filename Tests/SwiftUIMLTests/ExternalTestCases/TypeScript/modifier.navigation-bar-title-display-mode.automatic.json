@@ -1,0 +1,64 @@
+{
+  "type": "NavigationStack",
+  "attributes": [
+    [
+      "navigationTitle",
+      "Automatic Title"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ],
+        [
+          "navigationBarTitleDisplayMode",
+          "automatic"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Content Area"
+            ],
+            [
+              "font",
+              "body"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Title display is automatic"
+            ],
+            [
+              "font",
+              "caption"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#8E8E93"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      10
+    ],
+    [
+      "frame",
+      {
+        "width": 300
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This text has high priority and should not truncate"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "layoutPriority",
+          1
+        ],
+        [
+          "foregroundColor",
+          "green"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This text has low priority and may truncate"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "layoutPriority",
+          0
+        ],
+        [
+          "foregroundColor",
+          "red"
+        ]
+      ]
+    }
+  ]
+}

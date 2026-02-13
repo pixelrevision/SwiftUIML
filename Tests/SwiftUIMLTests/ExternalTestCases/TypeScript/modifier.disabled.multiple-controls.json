@@ -1,0 +1,155 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Form Controls"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Save"
+            ],
+            [
+              "onTap",
+              "save"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Cancel"
+            ],
+            [
+              "onTap",
+              "cancel"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Divider",
+      "attributes": []
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Disabled State"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Save"
+            ],
+            [
+              "onTap",
+              "save"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ],
+            [
+              "disabled",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Cancel"
+            ],
+            [
+              "onTap",
+              "cancel"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ],
+            [
+              "disabled",
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

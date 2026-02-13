@@ -1,0 +1,32 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#34C75980:#30D15880"
+        ]
+      ]
+    },
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "stroke",
+          {
+            "color": "#34C759:#30D158",
+            "lineWidth": 3
+          }
+        ]
+      ]
+    }
+  ]
+}

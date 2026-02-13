@@ -1,0 +1,13 @@
+{
+  "type": "Link",
+  "attributes": [
+    [
+      "title",
+      "Visit Apple"
+    ],
+    [
+      "url",
+      "https://apple.com"
+    ]
+  ]
+}

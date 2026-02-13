@@ -1,0 +1,21 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Hello"
+    ],
+    [
+      "padding",
+      12
+    ],
+    [
+      "backgroundColor",
+      "#007AFF:#0A84FF"
+    ],
+    [
+      "cornerRadius",
+      8
+    ]
+  ]
+}

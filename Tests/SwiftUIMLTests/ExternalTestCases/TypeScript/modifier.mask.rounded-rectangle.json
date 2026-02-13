@@ -1,0 +1,42 @@
+{
+  "type": "LinearGradient",
+  "attributes": [
+    [
+      "colors",
+      [
+        "#FF3B30:#FF453A",
+        "#007AFF:#0A84FF"
+      ]
+    ],
+    [
+      "startPoint",
+      "topLeading"
+    ],
+    [
+      "endPoint",
+      "bottomTrailing"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 100
+      }
+    ],
+    [
+      "mask",
+      {
+        "$type": "node",
+        "value": {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              20
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

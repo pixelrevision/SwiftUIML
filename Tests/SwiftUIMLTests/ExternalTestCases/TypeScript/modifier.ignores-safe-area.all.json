@@ -1,0 +1,54 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "top"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#FF0000:#FF453A"
+        ],
+        [
+          "ignoresSafeArea",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#0000FF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "height": 50
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Spacer",
+          "attributes": []
+        }
+      ]
+    }
+  ]
+}

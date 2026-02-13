@@ -1,0 +1,13 @@
+# SwiftLint Configuration for Tests
+# Inherits from parent .swiftlint.yml but allows larger files for comprehensive test suites
+
+# Allow larger files and types in tests
+file_length:
+  warning: 2000
+  error: 3000
+
+type_body_length:
+  warning: 2000
+  error: 3000
+
+# Keep other settings from parent config (they cascade automatically)

@@ -1,0 +1,150 @@
+{
+  "type": "Grid",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "horizontalSpacing",
+      2
+    ],
+    [
+      "verticalSpacing",
+      2
+    ]
+  ],
+  "children": [
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF0000:#FF3333"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#00FF00:#33FF33"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#0000FF:#3333FF"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FFFF00:#FFFF33"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ],
+            [
+              "gridCellColumns",
+              2
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF00FF:#FF33FF"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#00FFFF:#33FFFF"
+            ],
+            [
+              "frame",
+              {
+                "height": 30
+              }
+            ],
+            [
+              "gridCellColumns",
+              3
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

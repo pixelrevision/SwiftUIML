@@ -1,0 +1,72 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      0
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#FF3B30:#FF453A"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 10,
+            "alignment": "center"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#34C759:#30D158"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 10,
+            "alignment": "center"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#007AFF:#0A84FF"
+        ],
+        [
+          "containerRelativeFrame",
+          {
+            "axis": "horizontal",
+            "count": 3,
+            "span": 1,
+            "spacing": 10,
+            "alignment": "center"
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "type": "List",
+  "attributes": [
+    [
+      "listStyle",
+      "insetGrouped"
+    ],
+    [
+      "frame",
+      {
+        "width": 300,
+        "height": 250
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Row 1"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#FF3B30:#FF453A"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Row 2"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#34C759:#30D158"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Row 3"
+        ],
+        [
+          "listRowBackground",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#007AFF:#0A84FF"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "All Items Visible"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Divider",
+      "attributes": []
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Middle Hidden"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ],
+            [
+              "hidden",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#FF9500"
+            ],
+            [
+              "frame",
+              {
+                "width": 40,
+                "height": 40
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

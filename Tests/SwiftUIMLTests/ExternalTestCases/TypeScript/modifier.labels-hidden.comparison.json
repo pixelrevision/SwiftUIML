@@ -1,0 +1,49 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "ProgressView",
+      "attributes": [
+        [
+          "label",
+          "A label"
+        ],
+        [
+          "progressViewStyle",
+          "linear"
+        ]
+      ]
+    },
+    {
+      "type": "ProgressView",
+      "attributes": [
+        [
+          "label",
+          "A label"
+        ],
+        [
+          "progressViewStyle",
+          "linear"
+        ],
+        [
+          "labelsHidden",
+          true
+        ]
+      ]
+    }
+  ]
+}

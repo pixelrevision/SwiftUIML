@@ -1,0 +1,13 @@
+{
+  "type": "Rectangle",
+  "attributes": [
+    [
+      "foregroundColor",
+      "#007AFF:#0A84FF"
+    ],
+    [
+      "padding",
+      5
+    ]
+  ]
+}

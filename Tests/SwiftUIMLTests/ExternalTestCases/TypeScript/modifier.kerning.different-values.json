@@ -1,0 +1,95 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Kerning -4"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "kerning",
+          -4
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Kerning 0"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "kerning",
+          0
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Kerning 3"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "kerning",
+          3
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Kerning 10"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "kerning",
+          10
+        ]
+      ]
+    }
+  ]
+}

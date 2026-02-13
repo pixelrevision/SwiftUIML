@@ -1,0 +1,104 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Automatic Style"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "automatic"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Plain Style"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "plain"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Bordered Style"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "bordered"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Bordered Prominent"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "borderedProminent"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Borderless Style"
+        ],
+        [
+          "onTap",
+          "test"
+        ],
+        [
+          "buttonStyle",
+          "borderless"
+        ]
+      ]
+    }
+  ]
+}

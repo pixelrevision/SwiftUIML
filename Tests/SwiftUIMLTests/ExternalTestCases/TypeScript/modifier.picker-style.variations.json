@@ -1,0 +1,199 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Picker",
+      "attributes": [
+        [
+          "label",
+          "Menu"
+        ],
+        [
+          "selection",
+          "a"
+        ],
+        [
+          "pickerStyle",
+          "menu"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option A"
+            ],
+            [
+              "tag",
+              "a"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option B"
+            ],
+            [
+              "tag",
+              "b"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option C"
+            ],
+            [
+              "tag",
+              "c"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Picker",
+      "attributes": [
+        [
+          "label",
+          "Segmented"
+        ],
+        [
+          "selection",
+          "a"
+        ],
+        [
+          "pickerStyle",
+          "segmented"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option A"
+            ],
+            [
+              "tag",
+              "a"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option B"
+            ],
+            [
+              "tag",
+              "b"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option C"
+            ],
+            [
+              "tag",
+              "c"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Picker",
+      "attributes": [
+        [
+          "label",
+          "Wheel"
+        ],
+        [
+          "selection",
+          "b"
+        ],
+        [
+          "pickerStyle",
+          "wheel"
+        ],
+        [
+          "frame",
+          {
+            "height": 150
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option A"
+            ],
+            [
+              "tag",
+              "a"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option B"
+            ],
+            [
+              "tag",
+              "b"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Option C"
+            ],
+            [
+              "tag",
+              "c"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

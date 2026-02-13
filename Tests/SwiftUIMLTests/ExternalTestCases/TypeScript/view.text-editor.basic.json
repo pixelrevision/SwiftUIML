@@ -1,0 +1,43 @@
+{
+  "type": "TextEditor",
+  "attributes": [
+    [
+      "value",
+      "This is a multi-line text editor.\n\nYou can type multiple lines of text here."
+    ],
+    [
+      "frame",
+      {
+        "width": 300,
+        "height": 150
+      }
+    ],
+    [
+      "padding",
+      10
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#F5F5F5"
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "cornerRadius",
+      8
+    ],
+    [
+      "padding",
+      20
+    ]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "Form",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "ColorPicker",
+          "attributes": [
+            [
+              "label",
+              "Pick a color"
+            ],
+            [
+              "onColorChange",
+              "colorChanged"
+            ]
+          ]
+        },
+        {
+          "type": "ColorPicker",
+          "attributes": [
+            [
+              "label",
+              "Theme Color"
+            ],
+            [
+              "value",
+              "#FF5733"
+            ],
+            [
+              "onColorChange",
+              {
+                "action": "themeColorChanged"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "ColorPicker",
+          "attributes": [
+            [
+              "label",
+              "Solid Color"
+            ],
+            [
+              "value",
+              "#00AAFFFF"
+            ],
+            [
+              "supportsOpacity",
+              false
+            ],
+            [
+              "onColorChange",
+              "solidColorChanged"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

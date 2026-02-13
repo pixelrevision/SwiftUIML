@@ -1,0 +1,100 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Enable notifications"
+        ],
+        [
+          "isOn",
+          false
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Dark mode"
+        ],
+        [
+          "isOn",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Wi-Fi"
+        ],
+        [
+          "isOn",
+          false
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Airplane mode"
+        ],
+        [
+          "isOn",
+          false
+        ],
+        [
+          "foregroundColor",
+          "#007AFF"
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Bluetooth"
+        ],
+        [
+          "isOn",
+          true
+        ],
+        [
+          "font",
+          "body"
+        ],
+        [
+          "foregroundColor",
+          "#333333"
+        ]
+      ]
+    }
+  ]
+}

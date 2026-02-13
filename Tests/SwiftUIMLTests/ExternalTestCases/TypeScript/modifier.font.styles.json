@@ -1,0 +1,158 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Large Title"
+        ],
+        [
+          "font",
+          "largeTitle"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title"
+        ],
+        [
+          "font",
+          "title"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title 2"
+        ],
+        [
+          "font",
+          "title2"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title 3"
+        ],
+        [
+          "font",
+          "title3"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Headline"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Body"
+        ],
+        [
+          "font",
+          "body"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Callout"
+        ],
+        [
+          "font",
+          "callout"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Subheadline"
+        ],
+        [
+          "font",
+          "subheadline"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Footnote"
+        ],
+        [
+          "font",
+          "footnote"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Caption"
+        ],
+        [
+          "font",
+          "caption"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Caption 2"
+        ],
+        [
+          "font",
+          "caption2"
+        ]
+      ]
+    }
+  ]
+}

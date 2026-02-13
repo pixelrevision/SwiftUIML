@@ -1,0 +1,55 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Heading"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ],
+        [
+          "bold",
+          true
+        ],
+        [
+          "accessibilityTraits",
+          "isHeader"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Single trait (isHeader)"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

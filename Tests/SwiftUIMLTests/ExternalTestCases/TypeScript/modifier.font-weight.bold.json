@@ -1,0 +1,13 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Bold"
+    ],
+    [
+      "fontWeight",
+      "bold"
+    ]
+  ]
+}

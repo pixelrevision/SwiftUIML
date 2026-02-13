@@ -1,0 +1,54 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#007AFF33:#0A84FF33"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 100
+      }
+    ],
+    [
+      "overlay",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Overlay"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#000000BB:#FFFFFFBB"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              6
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

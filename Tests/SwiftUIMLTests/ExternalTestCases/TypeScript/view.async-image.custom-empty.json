@@ -1,0 +1,52 @@
+{
+  "type": "AsyncImage",
+  "attributes": [
+    [
+      "url",
+      "https://example.com/image.jpg"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 100
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "AsyncImageEmpty",
+      "attributes": [],
+      "children": [
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              8
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Loading..."
+                ],
+                [
+                  "foregroundColor",
+                  "#000000:#FFFFFF"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

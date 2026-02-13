@@ -1,0 +1,17 @@
+# Xcode user-specific files
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+# Claude Code (local settings only)
+.claude/settings.local.json
+.claude/*.local.*
+
+# Snapshot testing failures (don't commit these)
+Tests/SwiftUIMLTests/_Snapshots/**/*Failure*.png
+Package.resolved
+
+build

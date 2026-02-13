@@ -1,0 +1,51 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "name",
+          "photo"
+        ],
+        [
+          "bundle",
+          "swiftuiml.SwiftUIMLTests.resources"
+        ],
+        [
+          "accessibilityRemoveTraits",
+          [
+            "isButton",
+            "isHeader"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Multiple traits removed"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

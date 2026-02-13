@@ -1,0 +1,70 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "First Item"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#007AFF"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Hidden Item"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#FF3B30"
+        ],
+        [
+          "hidden",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Third Item"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#34C759"
+        ]
+      ]
+    }
+  ]
+}

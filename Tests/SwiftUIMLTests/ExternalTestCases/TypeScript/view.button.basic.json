@@ -1,0 +1,13 @@
+{
+  "type": "Button",
+  "attributes": [
+    [
+      "title",
+      "Tap Me"
+    ],
+    [
+      "onTap",
+      "tap"
+    ]
+  ]
+}

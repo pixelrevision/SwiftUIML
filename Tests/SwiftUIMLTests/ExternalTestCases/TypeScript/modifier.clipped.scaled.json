@@ -1,0 +1,121 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      32
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#34C759:#30D158"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 100
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Not Clipped"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Circle",
+          "attributes": [
+            [
+              "fill",
+              "#34C759:#30D158"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 100
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "clipped",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Clipped"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

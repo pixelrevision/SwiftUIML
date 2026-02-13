@@ -1,0 +1,59 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "topLeading"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#FF375F80:#FF648280"
+        ],
+        [
+          "frame",
+          {
+            "width": 60,
+            "height": 60
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#34C75980:#30D15880"
+        ],
+        [
+          "frame",
+          {
+            "width": 45,
+            "height": 45
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#007AFF80:#0A84FF80"
+        ],
+        [
+          "frame",
+          {
+            "width": 30,
+            "height": 30
+          }
+        ]
+      ]
+    }
+  ]
+}

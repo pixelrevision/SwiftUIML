@@ -1,0 +1,70 @@
+{
+  "type": "List",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [
+        [
+          "header",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Section Header"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "footer",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Section Footer"
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 1"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 2"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 3"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

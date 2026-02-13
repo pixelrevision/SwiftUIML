@@ -1,0 +1,59 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "topLeading"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "blue"
+        ],
+        [
+          "frame",
+          {
+            "width": 200,
+            "height": 200
+          }
+        ],
+        [
+          "coordinateSpace",
+          "container"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Content"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "padding",
+          20
+        ],
+        [
+          "backgroundColor",
+          "white"
+        ],
+        [
+          "cornerRadius",
+          8
+        ]
+      ]
+    }
+  ]
+}

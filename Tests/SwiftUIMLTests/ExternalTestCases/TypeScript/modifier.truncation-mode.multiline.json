@@ -1,0 +1,89 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This is a long text that spans multiple lines but will be truncated at the tail when it exceeds the line limit"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 180
+          }
+        ],
+        [
+          "lineLimit",
+          2
+        ],
+        [
+          "truncationMode",
+          "tail"
+        ],
+        [
+          "border",
+          {
+            "color": "purple",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This is a long text that spans multiple lines but will be truncated in the middle when it exceeds the line limit"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 180
+          }
+        ],
+        [
+          "lineLimit",
+          2
+        ],
+        [
+          "truncationMode",
+          "middle"
+        ],
+        [
+          "border",
+          {
+            "color": "orange",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

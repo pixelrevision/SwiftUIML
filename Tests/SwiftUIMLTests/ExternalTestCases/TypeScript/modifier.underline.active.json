@@ -1,0 +1,45 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Active underline"
+        ],
+        [
+          "underline",
+          {
+            "isActive": true
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Inactive underline"
+        ],
+        [
+          "underline",
+          {
+            "isActive": false
+          }
+        ]
+      ]
+    }
+  ]
+}

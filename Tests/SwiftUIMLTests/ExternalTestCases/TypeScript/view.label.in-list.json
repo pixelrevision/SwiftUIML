@@ -1,0 +1,58 @@
+{
+  "type": "List",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Home"
+        ],
+        [
+          "systemName",
+          "house"
+        ]
+      ]
+    },
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Search"
+        ],
+        [
+          "systemName",
+          "magnifyingglass"
+        ]
+      ]
+    },
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Favorites"
+        ],
+        [
+          "systemName",
+          "star"
+        ]
+      ]
+    },
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Settings"
+        ],
+        [
+          "systemName",
+          "gear"
+        ]
+      ]
+    }
+  ]
+}

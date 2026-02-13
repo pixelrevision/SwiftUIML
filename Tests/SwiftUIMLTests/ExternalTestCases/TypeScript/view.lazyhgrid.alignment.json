@@ -1,0 +1,322 @@
+{
+  "type": "ScrollView",
+  "attributes": [
+    [
+      "axis",
+      "horizontal"
+    ]
+  ],
+  "children": [
+    {
+      "type": "LazyHGrid",
+      "attributes": [
+        [
+          "rows",
+          3
+        ],
+        [
+          "alignment",
+          "top"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "padding",
+          16
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 0"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 1"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 2"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 3"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 4"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 5"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 6"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 7"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 8"
+            ],
+            [
+              "padding",
+              12
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF9500:#FF9F0A"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "cornerRadius",
+              8
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

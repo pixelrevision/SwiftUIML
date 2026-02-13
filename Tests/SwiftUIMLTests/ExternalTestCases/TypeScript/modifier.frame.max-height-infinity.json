@@ -1,0 +1,30 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "test"
+    ],
+    [
+      "frame",
+      {
+        "maxHeight": "$infinity"
+      }
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#5856D6:#5E5CE6"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

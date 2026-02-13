@@ -1,0 +1,101 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      10
+    ],
+    [
+      "frame",
+      {
+        "width": 300
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Low Priority (0)"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "padding",
+          10
+        ],
+        [
+          "backgroundColor",
+          "red"
+        ],
+        [
+          "layoutPriority",
+          0
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "High Priority (1)"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "padding",
+          10
+        ],
+        [
+          "backgroundColor",
+          "green"
+        ],
+        [
+          "layoutPriority",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Normal Priority"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 16
+          }
+        ],
+        [
+          "padding",
+          10
+        ],
+        [
+          "backgroundColor",
+          "blue"
+        ]
+      ]
+    }
+  ]
+}

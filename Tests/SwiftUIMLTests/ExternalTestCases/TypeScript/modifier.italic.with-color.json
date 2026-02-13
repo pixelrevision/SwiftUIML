@@ -1,0 +1,17 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Italic"
+    ],
+    [
+      "italic",
+      true
+    ],
+    [
+      "foregroundColor",
+      "#007AFF:#0A84FF"
+    ]
+  ]
+}

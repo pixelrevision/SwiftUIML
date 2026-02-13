@@ -1,0 +1,28 @@
+{
+  "type": "UnevenRoundedRectangle",
+  "attributes": [
+    [
+      "topLeading",
+      30
+    ],
+    [
+      "bottomLeading",
+      10
+    ],
+    [
+      "bottomTrailing",
+      30
+    ],
+    [
+      "topTrailing",
+      10
+    ],
+    [
+      "stroke",
+      {
+        "color": "#FF375F",
+        "lineWidth": 3
+      }
+    ]
+  ]
+}

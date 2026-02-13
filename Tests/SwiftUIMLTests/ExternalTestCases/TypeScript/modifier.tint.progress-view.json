@@ -1,0 +1,132 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "frame",
+      {
+        "width": 200
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "ProgressView",
+          "attributes": [
+            [
+              "tint",
+              "#007AFF"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Blue Progress"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "ProgressView",
+          "attributes": [
+            [
+              "tint",
+              "#FF3B30"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Red Progress"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "ProgressView",
+          "attributes": [
+            [
+              "tint",
+              "#34C759"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Green Progress"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "type": "Form",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Fruit"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Apple"
+                ],
+                [
+                  "tag",
+                  "apple"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Banana"
+                ],
+                [
+                  "tag",
+                  "banana"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Orange"
+                ],
+                [
+                  "tag",
+                  "orange"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Color"
+            ],
+            [
+              "selection",
+              "red"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Red"
+                ],
+                [
+                  "tag",
+                  "red"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Green"
+                ],
+                [
+                  "tag",
+                  "green"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Blue"
+                ],
+                [
+                  "tag",
+                  "blue"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Size"
+            ],
+            [
+              "selection",
+              "medium"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Small"
+                ],
+                [
+                  "tag",
+                  "small"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Medium"
+                ],
+                [
+                  "tag",
+                  "medium"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Large"
+                ],
+                [
+                  "tag",
+                  "large"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Extra Large"
+                ],
+                [
+                  "tag",
+                  "xlarge"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Theme"
+            ],
+            [
+              "selection",
+              "light"
+            ],
+            [
+              "onPickerChange",
+              "themeChanged"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Light"
+                ],
+                [
+                  "tag",
+                  "light"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Dark"
+                ],
+                [
+                  "tag",
+                  "dark"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Auto"
+                ],
+                [
+                  "tag",
+                  "auto"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

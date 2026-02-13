@@ -1,0 +1,126 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This is a very long text that will be truncated at the tail"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "truncationMode",
+          "tail"
+        ],
+        [
+          "border",
+          {
+            "color": "red",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This is a very long text that will be truncated in the middle"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "truncationMode",
+          "middle"
+        ],
+        [
+          "border",
+          {
+            "color": "blue",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "This is a very long text that will be truncated at the head"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "truncationMode",
+          "head"
+        ],
+        [
+          "border",
+          {
+            "color": "green",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

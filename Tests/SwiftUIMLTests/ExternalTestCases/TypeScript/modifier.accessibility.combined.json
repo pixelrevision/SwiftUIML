@@ -1,0 +1,66 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Important Item"
+        ],
+        [
+          "accessibilityLabel",
+          "Critical Item"
+        ],
+        [
+          "accessibilityHint",
+          "Requires immediate attention"
+        ],
+        [
+          "accessibilityTraits",
+          [
+            "isButton",
+            "isHeader"
+          ]
+        ],
+        [
+          "accessibilitySortPriority",
+          10
+        ],
+        [
+          "accessibilityInputLabels",
+          [
+            "Essential",
+            "Priority"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Multiple modifiers"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

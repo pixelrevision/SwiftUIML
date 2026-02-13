@@ -1,0 +1,16 @@
+{
+  "type": "Rectangle",
+  "attributes": [
+    [
+      "stroke",
+      {
+        "color": "#FF375F:#FF6482",
+        "lineWidth": 4
+      }
+    ],
+    [
+      "padding",
+      5
+    ]
+  ]
+}

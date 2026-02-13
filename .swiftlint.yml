@@ -1,0 +1,93 @@
+# SwiftLint Configuration for SwiftUIML
+
+# Indentation
+indentation: 2
+
+# Disabled rules
+disabled_rules:
+  - trailing_whitespace
+  - identifier_name
+  - type_name  # Test case IDs use lowercase struct names by design
+
+# Opt-in rules
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - explicit_init
+  - first_where
+  - force_unwrapping
+  - indentation_width
+  - sorted_first_last
+  - static_operator
+  - toggle_bool
+  - unused_optional_binding
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - yoda_condition
+
+# Enabled rules
+statement_position:
+  statement_mode: uncuddled_else
+
+# File exclusions
+excluded:
+  - .build
+  - .swiftpm
+  - Tests/SwiftUIMLTests/_Snapshots
+  - Package.swift
+
+# Rule configurations
+line_length:
+  warning: 120
+  error: 150
+  ignores_comments: true
+  ignores_urls: true
+
+file_length:
+  warning: 500
+  error: 1000
+
+function_body_length:
+  warning: 75
+  error: 100
+
+type_body_length:
+  warning: 300
+  error: 500
+
+cyclomatic_complexity:
+  warning: 15
+  error: 20
+
+nesting:
+  type_level: 2
+  function_level: 3
+
+indentation_width:
+  indentation_width: 2
+
+# type_name rule disabled above - test case IDs use lowercase intentionally
+
+# Force unwrapping - errors to enforce safe optional handling
+force_unwrapping: error
+force_cast: error
+force_try: error
+
+# Mark
+mark: warning
+
+# Trailing comma
+trailing_comma:
+  mandatory_comma: true
+
+# Vertical whitespace
+vertical_whitespace:
+  max_empty_lines: 1
+
+# Large tuple - allow 3-tuples for coordinates (x, y, z)
+large_tuple:
+  warning: 3
+  error: 4
+
+# Reporter
+reporter: "xcode"

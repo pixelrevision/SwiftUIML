@@ -1,0 +1,157 @@
+{
+  "type": "Form",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "DatePicker",
+          "attributes": [
+            [
+              "label",
+              "Select Date"
+            ],
+            [
+              "value",
+              "2025-06-15T12:00:00Z"
+            ],
+            [
+              "locale",
+              "en_US"
+            ],
+            [
+              "timeZone",
+              "GMT"
+            ],
+            [
+              "onDateChange",
+              "dateChanged"
+            ]
+          ]
+        },
+        {
+          "type": "DatePicker",
+          "attributes": [
+            [
+              "label",
+              "Birthday"
+            ],
+            [
+              "value",
+              "2000-01-01T00:00:00Z"
+            ],
+            [
+              "locale",
+              "en_US"
+            ],
+            [
+              "timeZone",
+              "GMT"
+            ],
+            [
+              "displayedComponents",
+              "date"
+            ]
+          ]
+        },
+        {
+          "type": "DatePicker",
+          "attributes": [
+            [
+              "label",
+              "Appointment"
+            ],
+            [
+              "value",
+              "2025-06-15T14:00:00Z"
+            ],
+            [
+              "locale",
+              "en_US"
+            ],
+            [
+              "timeZone",
+              "GMT"
+            ],
+            [
+              "displayedComponents",
+              "dateAndTime"
+            ],
+            [
+              "minimumDate",
+              "2025-01-01T00:00:00Z"
+            ],
+            [
+              "maximumDate",
+              "2025-12-31T23:59:59Z"
+            ],
+            [
+              "onDateChange",
+              {
+                "action": "appointmentChanged"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "DatePicker",
+          "attributes": [
+            [
+              "label",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "HStack",
+                  "attributes": [
+                    [
+                      "alignment",
+                      "center"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "type": "Image",
+                      "attributes": [
+                        [
+                          "systemName",
+                          "calendar"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "Text",
+                      "attributes": [
+                        [
+                          "text",
+                          "Event Date"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              "value",
+              "2025-10-25T14:30:00Z"
+            ],
+            [
+              "locale",
+              "en_US"
+            ],
+            [
+              "timeZone",
+              "GMT"
+            ],
+            [
+              "displayedComponents",
+              "dateAndTime"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

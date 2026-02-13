@@ -1,0 +1,116 @@
+{
+  "type": "TabView",
+  "attributes": [
+    [
+      "tint",
+      "red"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "tabItem",
+          {
+            "systemName": "house.fill",
+            "text": "Home"
+          }
+        ],
+        [
+          "tag",
+          "home"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Tab 1 Contents"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "tabItem",
+          {
+            "systemName": "magnifyingglass",
+            "text": "Search"
+          }
+        ],
+        [
+          "tag",
+          "search"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Tab 2 Contents"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "tabItem",
+          {
+            "systemName": "person.fill",
+            "text": "Profile"
+          }
+        ],
+        [
+          "tag",
+          "profile"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Tab 3 Contents"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

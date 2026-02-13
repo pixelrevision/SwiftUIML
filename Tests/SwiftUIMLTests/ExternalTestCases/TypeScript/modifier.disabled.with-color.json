@@ -1,0 +1,117 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Red Button - Enabled"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Delete"
+            ],
+            [
+              "onTap",
+              "delete"
+            ],
+            [
+              "buttonStyle",
+              "borderedProminent"
+            ],
+            [
+              "tint",
+              "#FF3B30"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Red Button - Disabled"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Delete"
+            ],
+            [
+              "onTap",
+              "delete"
+            ],
+            [
+              "buttonStyle",
+              "borderedProminent"
+            ],
+            [
+              "tint",
+              "#FF3B30"
+            ],
+            [
+              "disabled",
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

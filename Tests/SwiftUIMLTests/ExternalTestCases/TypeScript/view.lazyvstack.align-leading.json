@@ -1,0 +1,63 @@
+{
+  "type": "LazyVStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      10
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#FF375F:#FF6482"
+        ],
+        [
+          "frame",
+          {
+            "width": 20,
+            "height": 30
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#34C759:#30D158"
+        ],
+        [
+          "frame",
+          {
+            "width": 40,
+            "height": 30
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#007AFF:#0A84FF"
+        ],
+        [
+          "frame",
+          {
+            "width": 30,
+            "height": 30
+          }
+        ]
+      ]
+    }
+  ]
+}

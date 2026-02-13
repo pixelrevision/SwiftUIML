@@ -1,0 +1,39 @@
+{
+  "type": "RoundedRectangle",
+  "attributes": [
+    [
+      "cornerRadius",
+      12
+    ],
+    [
+      "fill",
+      "#5856D633:#5E5CE633"
+    ],
+    [
+      "frame",
+      {
+        "width": 80,
+        "height": 80
+      }
+    ],
+    [
+      "overlay",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Image",
+          "attributes": [
+            [
+              "systemName",
+              "star.fill"
+            ],
+            [
+              "foregroundColor",
+              "#FFD60A:#FFD60A"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Text with tightening enabled"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "allowsTightening",
+          true
+        ],
+        [
+          "border",
+          {
+            "color": "blue",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Text with tightening disabled"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "allowsTightening",
+          false
+        ],
+        [
+          "border",
+          {
+            "color": "red",
+            "width": 1
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Text with default behavior"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 200
+          }
+        ],
+        [
+          "lineLimit",
+          1
+        ],
+        [
+          "border",
+          {
+            "color": "gray",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#5856D6:#5E5CE6"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "rotation3DEffect",
+              {
+                "degrees": 0,
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "anchor": "center",
+                "anchorZ": 0,
+                "perspective": 1
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#5856D6:#5E5CE6"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "rotation3DEffect",
+              {
+                "degrees": 30,
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "anchor": "center",
+                "anchorZ": 0,
+                "perspective": 1
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "30°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#5856D6:#5E5CE6"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "rotation3DEffect",
+              {
+                "degrees": 60,
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "anchor": "center",
+                "anchorZ": 0,
+                "perspective": 1
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "60°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#5856D6:#5E5CE6"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 60
+              }
+            ],
+            [
+              "rotation3DEffect",
+              {
+                "degrees": 90,
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "anchor": "center",
+                "anchorZ": 0,
+                "perspective": 1
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "90°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

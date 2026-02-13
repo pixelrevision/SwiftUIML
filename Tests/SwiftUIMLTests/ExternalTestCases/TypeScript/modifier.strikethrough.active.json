@@ -1,0 +1,45 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Active strikethrough"
+        ],
+        [
+          "strikethrough",
+          {
+            "isActive": true
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Inactive strikethrough"
+        ],
+        [
+          "strikethrough",
+          {
+            "isActive": false
+          }
+        ]
+      ]
+    }
+  ]
+}

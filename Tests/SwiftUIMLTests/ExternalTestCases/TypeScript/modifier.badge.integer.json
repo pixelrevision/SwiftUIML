@@ -1,0 +1,59 @@
+{
+  "type": "List",
+  "attributes": [
+    [
+      "listStyle",
+      "insetGrouped"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Messages"
+        ],
+        [
+          "badge",
+          42
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Notifications"
+        ],
+        [
+          "badge",
+          3
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Updates"
+        ],
+        [
+          "badge",
+          0
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Settings"
+        ]
+      ]
+    }
+  ]
+}

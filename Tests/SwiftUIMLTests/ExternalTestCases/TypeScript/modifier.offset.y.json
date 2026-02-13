@@ -1,0 +1,50 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "topLeading"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#CCCCCC:#444444"
+        ],
+        [
+          "frame",
+          {
+            "width": 50,
+            "height": 50
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "#0000FF:#0A84FF"
+        ],
+        [
+          "frame",
+          {
+            "width": 50,
+            "height": 50
+          }
+        ],
+        [
+          "offset",
+          {
+            "x": 0,
+            "y": 30
+          }
+        ]
+      ]
+    }
+  ]
+}

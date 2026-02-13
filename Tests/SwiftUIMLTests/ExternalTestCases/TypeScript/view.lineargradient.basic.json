@@ -1,0 +1,22 @@
+{
+  "type": "LinearGradient",
+  "attributes": [
+    [
+      "colors",
+      [
+        "#FF0000",
+        "#00FF00",
+        "#0000FF",
+        "#FF0000"
+      ]
+    ],
+    [
+      "startPoint",
+      "top"
+    ],
+    [
+      "endPoint",
+      "bottom"
+    ]
+  ]
+}

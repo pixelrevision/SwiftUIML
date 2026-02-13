@@ -1,0 +1,64 @@
+{
+  "type": "NavigationStack",
+  "attributes": [
+    [
+      "navigationTitle",
+      "Hidden Nav Bar"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ],
+        [
+          "navigationBarHidden",
+          true
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Full Screen Content"
+            ],
+            [
+              "font",
+              "title"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Navigation bar is hidden"
+            ],
+            [
+              "font",
+              "caption"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#8E8E93"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

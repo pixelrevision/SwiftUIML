@@ -1,0 +1,46 @@
+{
+  "type": "List",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [
+        [
+          "footer",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Footer text"
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 1"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 2"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "Capsule",
+  "attributes": [
+    [
+      "stroke",
+      {
+        "color": "#FAD97D:#6E6BFF",
+        "lineWidth": 4
+      }
+    ]
+  ]
+}

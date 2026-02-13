@@ -1,0 +1,132 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      8
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Without fixedSize:"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "frame",
+          {
+            "width": 80
+          }
+        ],
+        [
+          "border",
+          {
+            "color": "#FF0000:#FF453A",
+            "width": 1
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF0000:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 50,
+                "height": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Wraps"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "With fixedSize:"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "fixedSize",
+          {
+            "horizontal": true,
+            "vertical": false
+          }
+        ],
+        [
+          "border",
+          {
+            "color": "#00FF00:#30D158",
+            "width": 1
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#00FF00:#30D158"
+            ],
+            [
+              "frame",
+              {
+                "width": 50,
+                "height": 40
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Wraps"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

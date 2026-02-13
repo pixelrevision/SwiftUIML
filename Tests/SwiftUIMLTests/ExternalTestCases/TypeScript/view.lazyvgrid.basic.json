@@ -1,0 +1,718 @@
+{
+  "type": "ScrollView",
+  "attributes": [
+    [
+      "axis",
+      "vertical"
+    ]
+  ],
+  "children": [
+    {
+      "type": "LazyVGrid",
+      "attributes": [
+        [
+          "columns",
+          3
+        ],
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          10
+        ],
+        [
+          "padding",
+          16
+        ]
+      ],
+      "children": [
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 0"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 1"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 2"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 3"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 4"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 5"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 6"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 7"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 8"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 9"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 10"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "RoundedRectangle",
+          "attributes": [
+            [
+              "cornerRadius",
+              8
+            ],
+            [
+              "fill",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#007AFF:#0A84FF"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "frame",
+              {
+                "height": 80
+              }
+            ],
+            [
+              "overlay",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Item 11"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFFFFF:#000000"
+                    ],
+                    [
+                      "font",
+                      {
+                        "type": "system",
+                        "size": 16,
+                        "weight": "semibold"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

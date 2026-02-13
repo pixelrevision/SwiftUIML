@@ -1,0 +1,53 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Enabled Button"
+        ],
+        [
+          "onTap",
+          "tap"
+        ],
+        [
+          "buttonStyle",
+          "borderedProminent"
+        ]
+      ]
+    },
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "Disabled Button"
+        ],
+        [
+          "onTap",
+          "tap"
+        ],
+        [
+          "buttonStyle",
+          "borderedProminent"
+        ],
+        [
+          "disabled",
+          true
+        ]
+      ]
+    }
+  ]
+}

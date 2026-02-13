@@ -1,0 +1,204 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Gauge",
+      "attributes": [
+        [
+          "label",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Speed"
+                ],
+                [
+                  "foregroundColor",
+                  "orange"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "value",
+          0.7
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ],
+        [
+          "minimumValueLabel",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Min: 0"
+                ],
+                [
+                  "foregroundColor",
+                  "red"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "maximumValueLabel",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Max: 1"
+                ],
+                [
+                  "foregroundColor",
+                  "green"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "currentValueLabel",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Current: 0.7"
+                ],
+                [
+                  "foregroundColor",
+                  "blue"
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Gauge",
+      "attributes": [
+        [
+          "label",
+          "Temperature"
+        ],
+        [
+          "value",
+          75
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          100
+        ]
+      ]
+    },
+    {
+      "type": "Gauge",
+      "attributes": [
+        [
+          "label",
+          "Battery"
+        ],
+        [
+          "value",
+          0.45
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ],
+        [
+          "tint",
+          "green"
+        ]
+      ]
+    },
+    {
+      "type": "Gauge",
+      "attributes": [
+        [
+          "label",
+          "Progress"
+        ],
+        [
+          "value",
+          0.15
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "Gauge",
+      "attributes": [
+        [
+          "label",
+          "Completion"
+        ],
+        [
+          "value",
+          0.95
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ],
+        [
+          "tint",
+          "red"
+        ]
+      ]
+    }
+  ]
+}

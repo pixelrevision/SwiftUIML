@@ -1,0 +1,44 @@
+{
+  "type": "Button",
+  "attributes": [
+    [
+      "title",
+      "Styled"
+    ],
+    [
+      "onTap",
+      "tap"
+    ],
+    [
+      "foregroundColor",
+      "#007AFF"
+    ],
+    [
+      "padding",
+      12
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF"
+            ],
+            [
+              "opacity",
+              0.1
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "cornerRadius",
+      8
+    ]
+  ]
+}

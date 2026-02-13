@@ -1,0 +1,16 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Custom"
+    ],
+    [
+      "font",
+      {
+        "name": "Splash-Regular",
+        "size": 12
+      }
+    ]
+  ]
+}

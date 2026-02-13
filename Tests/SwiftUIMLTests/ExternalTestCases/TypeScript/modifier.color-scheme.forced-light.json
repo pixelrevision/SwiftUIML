@@ -1,0 +1,59 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "colorScheme",
+      "light"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Light"
+        ],
+        [
+          "foregroundColor",
+          "#000000:#FFFFFF"
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#FFFFFF:#000000"
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Color",
+      "attributes": [
+        [
+          "value",
+          "systemBackground"
+        ],
+        [
+          "frame",
+          {
+            "width": 60,
+            "height": 30
+          }
+        ]
+      ]
+    }
+  ]
+}

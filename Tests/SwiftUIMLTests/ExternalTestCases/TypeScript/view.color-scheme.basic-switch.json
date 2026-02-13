@@ -1,0 +1,28 @@
+{
+  "type": "ColorScheme",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Light Mode"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Dark Mode"
+        ],
+        [
+          "foregroundColor",
+          "#FFFFFF"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#FF2D55:#FF375F"
+    ],
+    [
+      "frame",
+      {
+        "maxWidth": 100
+      }
+    ],
+    [
+      "frame",
+      {
+        "height": 40
+      }
+    ]
+  ]
+}

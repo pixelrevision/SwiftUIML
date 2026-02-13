@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.swift'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.json'
+      - 'Makefile'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**/*.swift'
+      - '**/*.ts'
+      - '**/*.js'
+      - '**/*.json'
+      - 'Makefile'
+      - '.github/workflows/**'
+
+jobs:
+  test:
+    # Only run on push or non-fork PRs (fork PRs have different head repo)
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    name: Test & Lint
+    runs-on: macos-15
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: TypeScript/package-lock.json
+
+      - name: Install TypeScript dependencies
+        working-directory: TypeScript
+        run: npm ci
+
+      - name: Install tools
+        run: brew install swiftlint xcbeautify
+
+      - name: Lint
+        run: make lint
+
+      - name: Test
+        run: make test

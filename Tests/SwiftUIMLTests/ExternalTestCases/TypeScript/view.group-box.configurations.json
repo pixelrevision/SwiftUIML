@@ -1,0 +1,413 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "GroupBox",
+      "attributes": [
+        [
+          "label",
+          "User Information"
+        ]
+      ],
+      "children": [
+        {
+          "type": "HStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              8
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Name:"
+                ],
+                [
+                  "font",
+                  "subheadline"
+                ],
+                [
+                  "foregroundColor",
+                  "#666666:#999999"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "John Doe"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "HStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              8
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Email:"
+                ],
+                [
+                  "font",
+                  "subheadline"
+                ],
+                [
+                  "foregroundColor",
+                  "#666666:#999999"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "john@example.com"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "HStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              8
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Role:"
+                ],
+                [
+                  "font",
+                  "subheadline"
+                ],
+                [
+                  "foregroundColor",
+                  "#666666:#999999"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Developer"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GroupBox",
+      "attributes": [],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "This is a group box without a label"
+            ],
+            [
+              "font",
+              "body"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "It still has the styled container"
+            ],
+            [
+              "font",
+              "caption"
+            ],
+            [
+              "foregroundColor",
+              "#999999:#666666"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GroupBox",
+      "attributes": [
+        [
+          "label",
+          {
+            "$type": "node",
+            "value": {
+              "type": "HStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "spacing",
+                  6
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "systemName",
+                      "star.fill"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFD700:#FFD700"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Premium Features"
+                    ],
+                    [
+                      "font",
+                      "headline"
+                    ],
+                    [
+                      "foregroundColor",
+                      "#FFD700:#FFD700"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "leading"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "• Unlimited storage"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "• Priority support"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "• Advanced analytics"
+                ],
+                [
+                  "font",
+                  "body"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GroupBox",
+      "attributes": [
+        [
+          "label",
+          "Settings"
+        ]
+      ],
+      "children": [
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              12
+            ]
+          ],
+          "children": [
+            {
+              "type": "GroupBox",
+              "attributes": [
+                [
+                  "label",
+                  "Display"
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Toggle",
+                  "attributes": [
+                    [
+                      "label",
+                      "Dark Mode"
+                    ],
+                    [
+                      "isOn",
+                      true
+                    ]
+                  ]
+                },
+                {
+                  "type": "Toggle",
+                  "attributes": [
+                    [
+                      "label",
+                      "Show Notifications"
+                    ],
+                    [
+                      "isOn",
+                      false
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "GroupBox",
+              "attributes": [
+                [
+                  "label",
+                  "Privacy"
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Toggle",
+                  "attributes": [
+                    [
+                      "label",
+                      "Location Services"
+                    ],
+                    [
+                      "isOn",
+                      true
+                    ]
+                  ]
+                },
+                {
+                  "type": "Toggle",
+                  "attributes": [
+                    [
+                      "label",
+                      "Analytics"
+                    ],
+                    [
+                      "isOn",
+                      false
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

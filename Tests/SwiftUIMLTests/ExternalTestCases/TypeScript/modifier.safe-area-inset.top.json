@@ -1,0 +1,55 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "blue"
+    ],
+    [
+      "ignoresSafeArea",
+      true
+    ],
+    [
+      "safeAreaInset",
+      {
+        "edge": "top",
+        "alignment": "center",
+        "content": {
+          "$type": "node",
+          "value": {
+            "type": "HStack",
+            "attributes": [
+              [
+                "alignment",
+                "center"
+              ],
+              [
+                "backgroundColor",
+                "red"
+              ]
+            ],
+            "children": [
+              {
+                "type": "Text",
+                "attributes": [
+                  [
+                    "text",
+                    "Top Inset"
+                  ],
+                  [
+                    "foregroundColor",
+                    "white"
+                  ],
+                  [
+                    "padding",
+                    10
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+}

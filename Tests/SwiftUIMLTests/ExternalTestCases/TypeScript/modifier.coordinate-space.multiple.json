@@ -1,0 +1,147 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "red"
+            ],
+            [
+              "frame",
+              {
+                "width": 150,
+                "height": 100
+              }
+            ],
+            [
+              "coordinateSpace",
+              "redSpace"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Red Space"
+            ],
+            [
+              "foregroundColor",
+              "white"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "green"
+            ],
+            [
+              "frame",
+              {
+                "width": 150,
+                "height": 100
+              }
+            ],
+            [
+              "coordinateSpace",
+              "greenSpace"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Green Space"
+            ],
+            [
+              "foregroundColor",
+              "white"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "blue"
+            ],
+            [
+              "frame",
+              {
+                "width": 150,
+                "height": 100
+              }
+            ],
+            [
+              "coordinateSpace",
+              "blueSpace"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Blue Space"
+            ],
+            [
+              "foregroundColor",
+              "white"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "ShareLink",
+  "attributes": [
+    [
+      "title",
+      "Share this link"
+    ],
+    [
+      "url",
+      "https://apple.com"
+    ]
+  ]
+}

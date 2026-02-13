@@ -1,0 +1,51 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "colorScheme",
+      "light"
+    ]
+  ],
+  "children": [
+    {
+      "type": "ColorScheme",
+      "attributes": [],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Light Mode"
+            ],
+            [
+              "foregroundColor",
+              "#000000"
+            ],
+            [
+              "backgroundColor",
+              "#FFFFFF"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Dark Mode"
+            ],
+            [
+              "foregroundColor",
+              "#FFFFFF"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

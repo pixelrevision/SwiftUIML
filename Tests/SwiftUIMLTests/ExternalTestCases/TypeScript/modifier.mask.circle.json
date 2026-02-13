@@ -1,0 +1,26 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#007AFF:#0A84FF"
+    ],
+    [
+      "frame",
+      {
+        "width": 100,
+        "height": 100
+      }
+    ],
+    [
+      "mask",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Circle",
+          "attributes": []
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "type": "Form",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Fruit"
+            ],
+            [
+              "selection",
+              "apple"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Apple"
+                ],
+                [
+                  "tag",
+                  "apple"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Banana"
+                ],
+                [
+                  "tag",
+                  "banana"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Orange"
+                ],
+                [
+                  "tag",
+                  "orange"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Picker",
+          "attributes": [
+            [
+              "label",
+              "Color"
+            ],
+            [
+              "selection",
+              "red"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Red"
+                ],
+                [
+                  "tag",
+                  "red"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Green"
+                ],
+                [
+                  "tag",
+                  "green"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Blue"
+                ],
+                [
+                  "tag",
+                  "blue"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "Toggle",
+          "attributes": [
+            [
+              "label",
+              "Dark Mode"
+            ],
+            [
+              "isOn",
+              true
+            ]
+          ]
+        },
+        {
+          "type": "Toggle",
+          "attributes": [
+            [
+              "label",
+              "Notifications"
+            ],
+            [
+              "isOn",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "TextField",
+          "attributes": [
+            [
+              "placeholder",
+              "Username"
+            ],
+            [
+              "value",
+              "john_doe"
+            ]
+          ]
+        },
+        {
+          "type": "TextField",
+          "attributes": [
+            [
+              "placeholder",
+              "Email"
+            ],
+            [
+              "value",
+              "john@example.com"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "hueRotation",
+          0
+        ]
+      ],
+      "children": [
+        {
+          "type": "LinearGradient",
+          "attributes": [
+            [
+              "colors",
+              [
+                "#FF3B30:#FF453A",
+                "#FF9500:#FF9F0A",
+                "#FFCC00:#FFD60A",
+                "#34C759:#30D158",
+                "#007AFF:#0A84FF",
+                "#5856D6:#5E5CE6"
+              ]
+            ],
+            [
+              "startPoint",
+              "top"
+            ],
+            [
+              "endPoint",
+              "bottom"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 100
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "hueRotation",
+          90
+        ]
+      ],
+      "children": [
+        {
+          "type": "LinearGradient",
+          "attributes": [
+            [
+              "colors",
+              [
+                "#FF3B30:#FF453A",
+                "#FF9500:#FF9F0A",
+                "#FFCC00:#FFD60A",
+                "#34C759:#30D158",
+                "#007AFF:#0A84FF",
+                "#5856D6:#5E5CE6"
+              ]
+            ],
+            [
+              "startPoint",
+              "top"
+            ],
+            [
+              "endPoint",
+              "bottom"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 100
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "90°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "hueRotation",
+          180
+        ]
+      ],
+      "children": [
+        {
+          "type": "LinearGradient",
+          "attributes": [
+            [
+              "colors",
+              [
+                "#FF3B30:#FF453A",
+                "#FF9500:#FF9F0A",
+                "#FFCC00:#FFD60A",
+                "#34C759:#30D158",
+                "#007AFF:#0A84FF",
+                "#5856D6:#5E5CE6"
+              ]
+            ],
+            [
+              "startPoint",
+              "top"
+            ],
+            [
+              "endPoint",
+              "bottom"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 100
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "180°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ],
+        [
+          "hueRotation",
+          270
+        ]
+      ],
+      "children": [
+        {
+          "type": "LinearGradient",
+          "attributes": [
+            [
+              "colors",
+              [
+                "#FF3B30:#FF453A",
+                "#FF9500:#FF9F0A",
+                "#FFCC00:#FFD60A",
+                "#34C759:#30D158",
+                "#007AFF:#0A84FF",
+                "#5856D6:#5E5CE6"
+              ]
+            ],
+            [
+              "startPoint",
+              "top"
+            ],
+            [
+              "endPoint",
+              "bottom"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 100
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "270°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

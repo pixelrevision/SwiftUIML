@@ -1,0 +1,52 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "padding",
+      10
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FFFFFF:#1C1C1E"
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Top"
+        ]
+      ]
+    },
+    {
+      "type": "Divider",
+      "attributes": []
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Bottom"
+        ]
+      ]
+    }
+  ]
+}

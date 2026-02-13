@@ -1,0 +1,53 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Group",
+      "attributes": [
+        [
+          "padding",
+          10
+        ],
+        [
+          "backgroundColor",
+          "#EEEEEE:#3C3C3E"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 1"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 2"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 3"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

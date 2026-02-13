@@ -1,0 +1,75 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Spacing 0\nSecond line\nThird line"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 14
+          }
+        ],
+        [
+          "lineSpacing",
+          0
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Spacing 5\nSecond line\nThird line"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 14
+          }
+        ],
+        [
+          "lineSpacing",
+          5
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Spacing 15\nSecond line\nThird line"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 14
+          }
+        ],
+        [
+          "lineSpacing",
+          15
+        ]
+      ]
+    }
+  ]
+}

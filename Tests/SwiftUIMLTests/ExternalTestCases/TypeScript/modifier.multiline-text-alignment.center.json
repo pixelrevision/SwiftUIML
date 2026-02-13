@@ -1,0 +1,19 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Short\nMedium Line\nVery Long Line Here"
+    ],
+    [
+      "multilineTextAlignment",
+      "center"
+    ],
+    [
+      "frame",
+      {
+        "width": 180
+      }
+    ]
+  ]
+}

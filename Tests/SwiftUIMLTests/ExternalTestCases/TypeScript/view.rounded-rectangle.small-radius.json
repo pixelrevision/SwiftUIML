@@ -1,0 +1,13 @@
+{
+  "type": "RoundedRectangle",
+  "attributes": [
+    [
+      "cornerRadius",
+      4
+    ],
+    [
+      "foregroundColor",
+      "#34C759:#30D158"
+    ]
+  ]
+}

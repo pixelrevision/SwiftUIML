@@ -1,0 +1,231 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 40
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 0,
+                "anchor": "center"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "0°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 40
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 45,
+                "anchor": "center"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "45°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 40
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 90,
+                "anchor": "center"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "90°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 60,
+                "height": 40
+              }
+            ],
+            [
+              "rotationEffect",
+              {
+                "degrees": 180,
+                "anchor": "center"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "180°"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 10
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

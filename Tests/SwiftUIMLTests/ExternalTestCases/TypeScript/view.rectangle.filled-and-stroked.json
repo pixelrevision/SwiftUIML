@@ -1,0 +1,40 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Rectangle",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#34C75980:#30D15880"
+        ],
+        [
+          "padding",
+          5
+        ]
+      ]
+    },
+    {
+      "type": "Rectangle",
+      "attributes": [
+        [
+          "stroke",
+          {
+            "color": "#34C759:#30D158",
+            "lineWidth": 3
+          }
+        ],
+        [
+          "padding",
+          5
+        ]
+      ]
+    }
+  ]
+}

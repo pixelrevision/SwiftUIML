@@ -1,0 +1,95 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "systemName",
+          "star.fill"
+        ],
+        [
+          "resizable",
+          true
+        ],
+        [
+          "foregroundColor",
+          "#FFD60A:#FFD60A"
+        ],
+        [
+          "frame",
+          {
+            "width": 50,
+            "height": 50
+          }
+        ],
+        [
+          "brightness",
+          -0.3
+        ]
+      ]
+    },
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "systemName",
+          "star.fill"
+        ],
+        [
+          "resizable",
+          true
+        ],
+        [
+          "foregroundColor",
+          "#FFD60A:#FFD60A"
+        ],
+        [
+          "frame",
+          {
+            "width": 50,
+            "height": 50
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "systemName",
+          "star.fill"
+        ],
+        [
+          "resizable",
+          true
+        ],
+        [
+          "foregroundColor",
+          "#FFD60A:#FFD60A"
+        ],
+        [
+          "frame",
+          {
+            "width": 50,
+            "height": 50
+          }
+        ],
+        [
+          "brightness",
+          0.3
+        ]
+      ]
+    }
+  ]
+}

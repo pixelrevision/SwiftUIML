@@ -1,0 +1,56 @@
+{
+  "type": "NavigationStack",
+  "attributes": [
+    [
+      "navigationTitle",
+      "Settings"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Main Content"
+            ],
+            [
+              "font",
+              "title"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "This view has a navigation title"
+            ],
+            [
+              "foregroundColor",
+              "#8E8E93:#8E8E93"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

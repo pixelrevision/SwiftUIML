@@ -1,0 +1,52 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Button",
+      "attributes": [
+        [
+          "title",
+          "OK"
+        ],
+        [
+          "onTap",
+          "confirm"
+        ],
+        [
+          "accessibilityInputLabels",
+          [
+            "Okay",
+            "Accept",
+            "Confirm"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Button with input labels"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

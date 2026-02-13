@@ -1,0 +1,24 @@
+{
+  "type": "Image",
+  "attributes": [
+    [
+      "name",
+      "generated-image"
+    ],
+    [
+      "bundle",
+      "swiftuiml.SwiftUIMLTests.resources"
+    ],
+    [
+      "resizable",
+      true
+    ],
+    [
+      "aspectRatio",
+      {
+        "ratio": "1:1",
+        "contentMode": "fit"
+      }
+    ]
+  ]
+}

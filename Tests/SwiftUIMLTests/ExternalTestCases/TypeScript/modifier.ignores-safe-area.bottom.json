@@ -1,0 +1,75 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "bottom"
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Spacer",
+          "attributes": []
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#0000FF:#0A84FF"
+            ],
+            [
+              "frame",
+              {
+                "height": 50
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Spacer",
+          "attributes": []
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF0000:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "height": 100
+              }
+            ],
+            [
+              "ignoresSafeArea",
+              "bottom"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

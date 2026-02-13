@@ -1,0 +1,221 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "bottom"
+        ],
+        [
+          "spacing",
+          5
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Base"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "+5"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              5
+            ],
+            [
+              "foregroundColor",
+              "green"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "+10"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              10
+            ],
+            [
+              "foregroundColor",
+              "green"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "+15"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              15
+            ],
+            [
+              "foregroundColor",
+              "green"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "top"
+        ],
+        [
+          "spacing",
+          5
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Base"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "-5"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              -5
+            ],
+            [
+              "foregroundColor",
+              "red"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "-10"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              -10
+            ],
+            [
+              "foregroundColor",
+              "red"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "-15"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              -15
+            ],
+            [
+              "foregroundColor",
+              "red"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

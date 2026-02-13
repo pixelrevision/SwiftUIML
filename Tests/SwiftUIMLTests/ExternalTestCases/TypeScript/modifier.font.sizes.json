@@ -1,0 +1,111 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      8
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 10"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 10
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 14"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 14
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 18"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 18
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 24"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 24
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 32"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 32
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Size 48"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 48
+          }
+        ]
+      ]
+    }
+  ]
+}

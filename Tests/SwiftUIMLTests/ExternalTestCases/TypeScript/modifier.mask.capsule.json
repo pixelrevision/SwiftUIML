@@ -1,0 +1,37 @@
+{
+  "type": "LinearGradient",
+  "attributes": [
+    [
+      "colors",
+      [
+        "#FF3B30:#FF453A",
+        "#34C759:#30D158"
+      ]
+    ],
+    [
+      "startPoint",
+      "leading"
+    ],
+    [
+      "endPoint",
+      "trailing"
+    ],
+    [
+      "frame",
+      {
+        "width": 80,
+        "height": 60
+      }
+    ],
+    [
+      "mask",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Capsule",
+          "attributes": []
+        }
+      }
+    ]
+  ]
+}

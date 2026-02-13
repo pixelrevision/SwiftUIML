@@ -1,0 +1,74 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      12
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Settings"
+        ],
+        [
+          "systemName",
+          "gear"
+        ]
+      ]
+    },
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Profile"
+        ],
+        [
+          "systemName",
+          "person.circle"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#007AFF:#0A84FF"
+        ]
+      ]
+    },
+    {
+      "type": "Label",
+      "attributes": [
+        [
+          "title",
+          "Favorites"
+        ],
+        [
+          "systemName",
+          "star.fill"
+        ],
+        [
+          "font",
+          "title3"
+        ],
+        [
+          "bold",
+          true
+        ]
+      ]
+    }
+  ]
+}

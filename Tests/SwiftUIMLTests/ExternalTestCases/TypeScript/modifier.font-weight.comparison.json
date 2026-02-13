@@ -1,0 +1,80 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      4
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Light"
+        ],
+        [
+          "fontWeight",
+          "light"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Regular"
+        ],
+        [
+          "fontWeight",
+          "regular"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Semibold"
+        ],
+        [
+          "fontWeight",
+          "semibold"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Bold"
+        ],
+        [
+          "fontWeight",
+          "bold"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Heavy"
+        ],
+        [
+          "fontWeight",
+          "heavy"
+        ]
+      ]
+    }
+  ]
+}

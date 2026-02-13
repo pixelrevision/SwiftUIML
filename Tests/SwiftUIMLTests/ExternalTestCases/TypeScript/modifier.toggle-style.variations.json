@@ -1,0 +1,70 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Automatic"
+        ],
+        [
+          "isOn",
+          true
+        ],
+        [
+          "toggleStyle",
+          "automatic"
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Switch"
+        ],
+        [
+          "isOn",
+          true
+        ],
+        [
+          "toggleStyle",
+          "switch"
+        ]
+      ]
+    },
+    {
+      "type": "Toggle",
+      "attributes": [
+        [
+          "label",
+          "Button"
+        ],
+        [
+          "isOn",
+          false
+        ],
+        [
+          "toggleStyle",
+          "button"
+        ]
+      ]
+    }
+  ]
+}

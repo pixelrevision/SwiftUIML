@@ -1,0 +1,167 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      24
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "aspectRatio",
+              {
+                "ratio": 1,
+                "contentMode": "fit"
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 120
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#F0F0F0"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Aspect Fit"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "aspectRatio",
+              {
+                "ratio": 1,
+                "contentMode": "fill"
+              }
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 120
+              }
+            ],
+            [
+              "clipped",
+              true
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#F0F0F0"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Aspect Fill"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

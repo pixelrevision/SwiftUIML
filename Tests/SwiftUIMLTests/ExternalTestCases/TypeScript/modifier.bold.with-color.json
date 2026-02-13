@@ -1,0 +1,17 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Bold"
+    ],
+    [
+      "bold",
+      true
+    ],
+    [
+      "foregroundColor",
+      "#007AFF:#0A84FF"
+    ]
+  ]
+}

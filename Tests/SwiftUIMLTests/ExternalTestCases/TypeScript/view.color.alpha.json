@@ -1,0 +1,13 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#FF0000"
+    ],
+    [
+      "opacity",
+      0.5
+    ]
+  ]
+}

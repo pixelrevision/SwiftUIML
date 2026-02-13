@@ -1,0 +1,171 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 50,
+                "height": 50
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "50x50"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 80,
+                "height": 80
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "80x80"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "name",
+              "generated-image"
+            ],
+            [
+              "bundle",
+              "swiftuiml.SwiftUIMLTests.resources"
+            ],
+            [
+              "resizable",
+              true
+            ],
+            [
+              "frame",
+              {
+                "width": 120,
+                "height": 120
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "120x120"
+            ],
+            [
+              "font",
+              "caption"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

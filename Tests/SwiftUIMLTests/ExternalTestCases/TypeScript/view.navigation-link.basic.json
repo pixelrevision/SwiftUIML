@@ -1,0 +1,49 @@
+{
+  "type": "NavigationStack",
+  "attributes": [],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ],
+        [
+          "padding",
+          null
+        ]
+      ],
+      "children": [
+        {
+          "type": "NavigationLink",
+          "attributes": [
+            [
+              "value",
+              "profile"
+            ],
+            [
+              "padding",
+              null
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Go to Profile"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

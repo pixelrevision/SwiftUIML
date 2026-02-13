@@ -1,0 +1,114 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "TextField",
+      "attributes": [
+        [
+          "placeholder",
+          "Enter your name"
+        ]
+      ]
+    },
+    {
+      "type": "TextField",
+      "attributes": [
+        [
+          "placeholder",
+          "Email"
+        ],
+        [
+          "value",
+          "user@example.com"
+        ]
+      ]
+    },
+    {
+      "type": "TextField",
+      "attributes": [
+        [
+          "placeholder",
+          "Search..."
+        ],
+        [
+          "padding",
+          8
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#F0F0F0"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "cornerRadius",
+          6
+        ]
+      ]
+    },
+    {
+      "type": "TextField",
+      "attributes": [
+        [
+          "placeholder",
+          "Username"
+        ],
+        [
+          "padding",
+          8
+        ],
+        [
+          "border",
+          {
+            "color": "#007AFF",
+            "width": 1
+          }
+        ],
+        [
+          "cornerRadius",
+          6
+        ]
+      ]
+    },
+    {
+      "type": "TextField",
+      "attributes": [
+        [
+          "placeholder",
+          "Password"
+        ],
+        [
+          "font",
+          "body"
+        ],
+        [
+          "foregroundColor",
+          "#333333"
+        ]
+      ]
+    }
+  ]
+}

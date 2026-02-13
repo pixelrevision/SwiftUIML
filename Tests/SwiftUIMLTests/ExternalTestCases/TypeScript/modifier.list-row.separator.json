@@ -1,0 +1,78 @@
+{
+  "type": "List",
+  "attributes": [
+    [
+      "listStyle",
+      "insetGrouped"
+    ],
+    [
+      "frame",
+      {
+        "width": 300,
+        "height": 250
+      }
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Automatic"
+        ],
+        [
+          "listRowSeparator",
+          "automatic"
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Visible"
+        ],
+        [
+          "listRowSeparator",
+          "visible"
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Hidden"
+        ],
+        [
+          "listRowSeparator",
+          "hidden"
+        ],
+        [
+          "ignoreEquatable",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Normal"
+        ]
+      ]
+    }
+  ]
+}

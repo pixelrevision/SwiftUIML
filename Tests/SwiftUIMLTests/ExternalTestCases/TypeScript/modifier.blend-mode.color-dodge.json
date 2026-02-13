@@ -1,0 +1,66 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "LinearGradient",
+      "attributes": [
+        [
+          "colors",
+          [
+            "#007AFF:#0A84FF",
+            "#5856D6:#5E5CE6"
+          ]
+        ],
+        [
+          "startPoint",
+          "top"
+        ],
+        [
+          "endPoint",
+          "bottom"
+        ],
+        [
+          "frame",
+          {
+            "width": 150,
+            "height": 100
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "name",
+          "generated-image"
+        ],
+        [
+          "bundle",
+          "swiftuiml.SwiftUIMLTests.resources"
+        ],
+        [
+          "resizable",
+          true
+        ],
+        [
+          "frame",
+          {
+            "width": 100,
+            "height": 100
+          }
+        ],
+        [
+          "blendMode",
+          "colorDodge"
+        ]
+      ]
+    }
+  ]
+}

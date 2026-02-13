@@ -1,0 +1,59 @@
+{
+  "type": "List",
+  "attributes": [
+    [
+      "listStyle",
+      "insetGrouped"
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Inbox"
+        ],
+        [
+          "badge",
+          "99+"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Drafts"
+        ],
+        [
+          "badge",
+          "New"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Sent"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Archive"
+        ],
+        [
+          "badge",
+          "!"
+        ]
+      ]
+    }
+  ]
+}

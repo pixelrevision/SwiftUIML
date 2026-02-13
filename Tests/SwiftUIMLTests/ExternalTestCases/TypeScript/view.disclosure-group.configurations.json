@@ -1,0 +1,270 @@
+{
+  "type": "Form",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [],
+      "children": [
+        {
+          "type": "DisclosureGroup",
+          "attributes": [
+            [
+              "label",
+              "Basic Details"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "This is basic content"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "It can contain multiple items"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DisclosureGroup",
+          "attributes": [
+            [
+              "label",
+              "Settings"
+            ],
+            [
+              "isExpanded",
+              true
+            ]
+          ],
+          "children": [
+            {
+              "type": "Toggle",
+              "attributes": [
+                [
+                  "label",
+                  "Dark Mode"
+                ],
+                [
+                  "isOn",
+                  true
+                ]
+              ]
+            },
+            {
+              "type": "Toggle",
+              "attributes": [
+                [
+                  "label",
+                  "Notifications"
+                ],
+                [
+                  "isOn",
+                  false
+                ]
+              ]
+            },
+            {
+              "type": "Slider",
+              "attributes": [
+                [
+                  "value",
+                  0.7
+                ],
+                [
+                  "minimumValue",
+                  0
+                ],
+                [
+                  "maximumValue",
+                  1
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DisclosureGroup",
+          "attributes": [
+            [
+              "label",
+              "Advanced Options"
+            ]
+          ],
+          "children": [
+            {
+              "type": "DisclosureGroup",
+              "attributes": [
+                [
+                  "label",
+                  "Network"
+                ],
+                [
+                  "isExpanded",
+                  true
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "WiFi: Connected"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Cellular: Enabled"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "DisclosureGroup",
+              "attributes": [
+                [
+                  "label",
+                  "Privacy"
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Location Services: On"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Analytics: Off"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DisclosureGroup",
+          "attributes": [
+            [
+              "label",
+              "Preferences"
+            ],
+            [
+              "isExpanded",
+              false
+            ],
+            [
+              "onExpandedChange",
+              "preferencesExpanded"
+            ]
+          ],
+          "children": [
+            {
+              "type": "Picker",
+              "attributes": [
+                [
+                  "label",
+                  "Theme"
+                ],
+                [
+                  "selection",
+                  "light"
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Light"
+                    ],
+                    [
+                      "tag",
+                      "light"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Dark"
+                    ],
+                    [
+                      "tag",
+                      "dark"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Text",
+                  "attributes": [
+                    [
+                      "text",
+                      "Auto"
+                    ],
+                    [
+                      "tag",
+                      "auto"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Stepper",
+              "attributes": [
+                [
+                  "label",
+                  "Font Size"
+                ],
+                [
+                  "value",
+                  14
+                ],
+                [
+                  "minimumValue",
+                  10
+                ],
+                [
+                  "maximumValue",
+                  24
+                ],
+                [
+                  "step",
+                  2
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

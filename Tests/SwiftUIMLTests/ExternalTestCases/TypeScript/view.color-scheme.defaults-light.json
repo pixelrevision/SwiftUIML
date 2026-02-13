@@ -1,0 +1,19 @@
+{
+  "type": "ColorScheme",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Light Mode"
+        ],
+        [
+          "foregroundColor",
+          "#FF375F"
+        ]
+      ]
+    }
+  ]
+}

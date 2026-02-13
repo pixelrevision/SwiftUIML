@@ -1,0 +1,16 @@
+{
+  "type": "RoundedRectangle",
+  "attributes": [
+    [
+      "cornerRadius",
+      8
+    ],
+    [
+      "stroke",
+      {
+        "color": "#FF375F:#FF6482",
+        "lineWidth": 3
+      }
+    ]
+  ]
+}

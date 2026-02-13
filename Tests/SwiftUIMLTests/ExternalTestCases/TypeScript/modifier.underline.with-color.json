@@ -1,0 +1,60 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Red underline"
+        ],
+        [
+          "underline",
+          {
+            "isActive": true,
+            "color": "#FF0000:#FF453A"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Blue underline"
+        ],
+        [
+          "underline",
+          {
+            "isActive": true,
+            "color": "#0000FF:#0A84FF"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Default underline"
+        ],
+        [
+          "underline",
+          true
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "Label",
+  "attributes": [
+    [
+      "title",
+      "Home"
+    ],
+    [
+      "systemName",
+      "house"
+    ]
+  ]
+}

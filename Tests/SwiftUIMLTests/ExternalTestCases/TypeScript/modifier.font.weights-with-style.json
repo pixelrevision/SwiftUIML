@@ -1,0 +1,151 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      8
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Ultralight"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "ultraLight"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Light"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "light"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Regular"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "regular"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Medium"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "medium"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Semibold"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "semibold"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Bold"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "bold"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Heavy"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "heavy"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Title - Black"
+        ],
+        [
+          "font",
+          "title"
+        ],
+        [
+          "fontWeight",
+          "black"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "type": "Grid",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "horizontalSpacing",
+      2
+    ],
+    [
+      "verticalSpacing",
+      2
+    ]
+  ],
+  "children": [
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF0000:#FF3333"
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#00FF00:#33FF33"
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#0000FF:#3333FF"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FFFF00:#FFFF33"
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF00FF:#FF33FF"
+            ]
+          ]
+        },
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#00FFFF:#33FFFF"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

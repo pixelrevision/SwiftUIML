@@ -1,0 +1,48 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      12
+    ]
+  ],
+  "children": [
+    {
+      "type": "Image",
+      "attributes": [
+        [
+          "name",
+          "decorative"
+        ],
+        [
+          "bundle",
+          "swiftuiml.SwiftUIMLTests.resources"
+        ],
+        [
+          "accessibilityHidden",
+          true
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Image hidden from a11y"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  ]
+}

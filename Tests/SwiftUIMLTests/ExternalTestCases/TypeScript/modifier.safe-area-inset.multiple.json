@@ -1,0 +1,75 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "yellow"
+    ],
+    [
+      "ignoresSafeArea",
+      true
+    ],
+    [
+      "safeAreaInset",
+      {
+        "edge": "top",
+        "alignment": "center",
+        "content": {
+          "$type": "node",
+          "value": {
+            "type": "Text",
+            "attributes": [
+              [
+                "text",
+                "Top"
+              ],
+              [
+                "foregroundColor",
+                "white"
+              ],
+              [
+                "padding",
+                10
+              ],
+              [
+                "backgroundColor",
+                "red"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    [
+      "safeAreaInset",
+      {
+        "edge": "bottom",
+        "alignment": "center",
+        "content": {
+          "$type": "node",
+          "value": {
+            "type": "Text",
+            "attributes": [
+              [
+                "text",
+                "Bottom"
+              ],
+              [
+                "foregroundColor",
+                "white"
+              ],
+              [
+                "padding",
+                10
+              ],
+              [
+                "backgroundColor",
+                "blue"
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  ]
+}

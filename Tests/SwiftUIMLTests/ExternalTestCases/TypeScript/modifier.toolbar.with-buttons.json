@@ -1,0 +1,89 @@
+{
+  "type": "NavigationStack",
+  "attributes": [],
+  "children": [
+    {
+      "type": "VStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          20
+        ],
+        [
+          "toolbar",
+          {
+            "$type": "node",
+            "value": {
+              "type": "ToolbarContent",
+              "attributes": [],
+              "children": [
+                {
+                  "type": "Button",
+                  "attributes": [
+                    [
+                      "onTap",
+                      "add"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "type": "Image",
+                      "attributes": [
+                        [
+                          "systemName",
+                          "plus"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Button",
+                  "attributes": [
+                    [
+                      "onTap",
+                      "edit"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "type": "Image",
+                      "attributes": [
+                        [
+                          "systemName",
+                          "pencil"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Content with Toolbar"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 24
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

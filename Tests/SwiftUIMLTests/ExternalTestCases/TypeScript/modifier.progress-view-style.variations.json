@@ -1,0 +1,46 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "ProgressView",
+      "attributes": [
+        [
+          "progressViewStyle",
+          "automatic"
+        ]
+      ]
+    },
+    {
+      "type": "ProgressView",
+      "attributes": [
+        [
+          "progressViewStyle",
+          "linear"
+        ]
+      ]
+    },
+    {
+      "type": "ProgressView",
+      "attributes": [
+        [
+          "progressViewStyle",
+          "circular"
+        ]
+      ]
+    }
+  ]
+}

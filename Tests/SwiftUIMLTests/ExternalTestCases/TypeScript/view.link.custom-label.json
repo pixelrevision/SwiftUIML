@@ -1,0 +1,44 @@
+{
+  "type": "Link",
+  "attributes": [
+    [
+      "url",
+      "https://github.com"
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          8
+        ]
+      ],
+      "children": [
+        {
+          "type": "Image",
+          "attributes": [
+            [
+              "systemName",
+              "link"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "GitHub"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

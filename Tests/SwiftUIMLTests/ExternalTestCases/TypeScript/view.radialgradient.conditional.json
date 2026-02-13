@@ -1,0 +1,24 @@
+{
+  "type": "RadialGradient",
+  "attributes": [
+    [
+      "colors",
+      [
+        "#FFFFFF:#000000",
+        "#CCCCCC:#5C5B5B"
+      ]
+    ],
+    [
+      "center",
+      "center"
+    ],
+    [
+      "startRadius",
+      0
+    ],
+    [
+      "endRadius",
+      300
+    ]
+  ]
+}

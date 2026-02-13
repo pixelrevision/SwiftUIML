@@ -1,0 +1,2263 @@
+{
+  "type": "Grid",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "horizontalSpacing",
+      2
+    ],
+    [
+      "verticalSpacing",
+      2
+    ],
+    [
+      "padding",
+      8
+    ]
+  ],
+  "children": [
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "red"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "red"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "blue"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "blue"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "green"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "green"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "orange"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "orange"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "yellow"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "yellow"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "purple"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "purple"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "pink"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "pink"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "black"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "black"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "white"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "white"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "gray"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "gray"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "primary"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "primary"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "secondary"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "secondary"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "clear"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "clear"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "label"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "label"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "secondaryLabel"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "secondaryLabel"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "tertiaryLabel"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "tertiaryLabel"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "quaternaryLabel"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "quaternaryLabel"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "secondarySystemBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "secondarySystemBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "tertiarySystemBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "tertiarySystemBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGroupedBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGroupedBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "secondarySystemGroupedBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "secondarySystemGroupedBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "tertiarySystemGroupedBackground"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "tertiarySystemGroupedBackground"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemFill"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemFill"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "secondarySystemFill"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "secondarySystemFill"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "tertiarySystemFill"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "tertiarySystemFill"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "quaternarySystemFill"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "quaternarySystemFill"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "separator"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "separator"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "opaqueSeparator"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "opaqueSeparator"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "link"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "link"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemRed"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemRed"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemBlue"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemBlue"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGreen"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGreen"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemOrange"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemOrange"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemYellow"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemYellow"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemPink"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemPink"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemPurple"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemPurple"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemTeal"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemTeal"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemIndigo"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemIndigo"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemBrown"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemBrown"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemMint"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemMint"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemCyan"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemCyan"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray2"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray2"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray3"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray3"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GridRow",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray4"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray4"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray5"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray5"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "systemGray6"
+            ],
+            [
+              "font",
+              "caption2"
+            ],
+            [
+              "foregroundColor",
+              "label"
+            ],
+            [
+              "padding",
+              8
+            ],
+            [
+              "frame",
+              {
+                "maxWidth": "$infinity",
+                "alignment": "leading"
+              }
+            ],
+            [
+              "background",
+              {
+                "$type": "node",
+                "value": {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "systemGray6"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

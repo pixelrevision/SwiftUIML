@@ -1,0 +1,197 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Bordered Buttons"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Blue"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ],
+            [
+              "tint",
+              "#007AFF"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Red"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ],
+            [
+              "tint",
+              "#FF3B30"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Green"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "bordered"
+            ],
+            [
+              "tint",
+              "#34C759"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Prominent Buttons"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          12
+        ]
+      ],
+      "children": [
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Purple"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "borderedProminent"
+            ],
+            [
+              "tint",
+              "#5856D6"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Orange"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "borderedProminent"
+            ],
+            [
+              "tint",
+              "#FF9500"
+            ]
+          ]
+        },
+        {
+          "type": "Button",
+          "attributes": [
+            [
+              "title",
+              "Pink"
+            ],
+            [
+              "onTap",
+              "tap"
+            ],
+            [
+              "buttonStyle",
+              "borderedProminent"
+            ],
+            [
+              "tint",
+              "#FF2D55"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

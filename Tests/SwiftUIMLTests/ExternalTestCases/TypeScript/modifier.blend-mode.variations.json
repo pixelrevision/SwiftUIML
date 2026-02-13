@@ -1,0 +1,523 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ],
+    [
+      "padding",
+      10
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ]
+      ],
+      "children": [
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "normal"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Normal"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "multiply"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Multiply"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "screen"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Screen"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ],
+        [
+          "spacing",
+          16
+        ]
+      ],
+      "children": [
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "overlay"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Overlay"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "darken"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Darken"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "ZStack",
+              "attributes": [
+                [
+                  "alignment",
+                  "center"
+                ],
+                [
+                  "frame",
+                  {
+                    "width": 70,
+                    "height": 70
+                  }
+                ]
+              ],
+              "children": [
+                {
+                  "type": "Color",
+                  "attributes": [
+                    [
+                      "value",
+                      "#FF3B30:#FF453A"
+                    ]
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "attributes": [
+                    [
+                      "name",
+                      "generated-image"
+                    ],
+                    [
+                      "bundle",
+                      "swiftuiml.SwiftUIMLTests.resources"
+                    ],
+                    [
+                      "resizable",
+                      true
+                    ],
+                    [
+                      "blendMode",
+                      "lighten"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Lighten"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 10
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

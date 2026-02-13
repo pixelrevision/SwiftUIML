@@ -1,0 +1,12 @@
+{
+  "type": "Ellipse",
+  "attributes": [
+    [
+      "stroke",
+      {
+        "color": "#FF375F:#FF6482",
+        "lineWidth": 4
+      }
+    ]
+  ]
+}

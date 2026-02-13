@@ -1,0 +1,20 @@
+{
+  "type": "Color",
+  "attributes": [
+    [
+      "value",
+      "#FF9500:#FF9F0A"
+    ],
+    [
+      "frame",
+      {
+        "width": 80,
+        "height": 60
+      }
+    ],
+    [
+      "cornerRadius",
+      24
+    ]
+  ]
+}

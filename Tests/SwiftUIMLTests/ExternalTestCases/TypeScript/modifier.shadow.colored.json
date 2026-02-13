@@ -1,0 +1,41 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Shadow"
+    ],
+    [
+      "padding",
+      16
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FFFFFF:#1C1C1E"
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "cornerRadius",
+      8
+    ],
+    [
+      "shadow",
+      {
+        "color": "#007AFF66:#0A84FF66",
+        "radius": 6,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  ]
+}

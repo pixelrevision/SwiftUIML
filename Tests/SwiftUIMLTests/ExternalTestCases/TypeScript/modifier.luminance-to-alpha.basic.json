@@ -1,0 +1,199 @@
+{
+  "type": "HStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 150
+              }
+            ]
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Light"
+                ],
+                [
+                  "foregroundColor",
+                  "#FFFFFF"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 20
+                  }
+                ],
+                [
+                  "bold",
+                  true
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Dark"
+                ],
+                [
+                  "foregroundColor",
+                  "#000000"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 20
+                  }
+                ],
+                [
+                  "bold",
+                  true
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ZStack",
+      "attributes": [
+        [
+          "alignment",
+          "center"
+        ]
+      ],
+      "children": [
+        {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#FF3B30:#FF453A"
+            ],
+            [
+              "frame",
+              {
+                "width": 100,
+                "height": 150
+              }
+            ]
+          ]
+        },
+        {
+          "type": "VStack",
+          "attributes": [
+            [
+              "alignment",
+              "center"
+            ],
+            [
+              "spacing",
+              4
+            ],
+            [
+              "luminanceToAlpha",
+              true
+            ]
+          ],
+          "children": [
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Light"
+                ],
+                [
+                  "foregroundColor",
+                  "#FFFFFF"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 20
+                  }
+                ],
+                [
+                  "bold",
+                  true
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Dark"
+                ],
+                [
+                  "foregroundColor",
+                  "#000000"
+                ],
+                [
+                  "font",
+                  {
+                    "type": "system",
+                    "size": 20
+                  }
+                ],
+                [
+                  "bold",
+                  true
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

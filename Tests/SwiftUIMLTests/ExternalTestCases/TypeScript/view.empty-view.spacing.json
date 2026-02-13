@@ -1,0 +1,104 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      0
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Section 1"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "EmptyView",
+      "attributes": [
+        [
+          "frame",
+          {
+            "height": 20
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Content for section 1"
+        ],
+        [
+          "font",
+          "body"
+        ]
+      ]
+    },
+    {
+      "type": "EmptyView",
+      "attributes": [
+        [
+          "frame",
+          {
+            "height": 30
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Section 2"
+        ],
+        [
+          "font",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "type": "EmptyView",
+      "attributes": [
+        [
+          "frame",
+          {
+            "height": 20
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Content for section 2"
+        ],
+        [
+          "font",
+          "body"
+        ]
+      ]
+    }
+  ]
+}

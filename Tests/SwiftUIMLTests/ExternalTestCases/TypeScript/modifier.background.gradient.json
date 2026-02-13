@@ -1,0 +1,39 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "test"
+    ],
+    [
+      "padding",
+      12
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "LinearGradient",
+          "attributes": [
+            [
+              "colors",
+              [
+                "#007AFF:#0A84FF",
+                "#34C759:#30D158"
+              ]
+            ],
+            [
+              "startPoint",
+              "top"
+            ],
+            [
+              "endPoint",
+              "bottom"
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "hello"
+    ],
+    [
+      "foregroundColor",
+      "orange"
+    ]
+  ]
+}

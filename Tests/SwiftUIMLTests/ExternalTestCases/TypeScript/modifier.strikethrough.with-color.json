@@ -1,0 +1,60 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Red strikethrough"
+        ],
+        [
+          "strikethrough",
+          {
+            "isActive": true,
+            "color": "#FF0000:#FF453A"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Blue strikethrough"
+        ],
+        [
+          "strikethrough",
+          {
+            "isActive": true,
+            "color": "#0000FF:#0A84FF"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Default strikethrough"
+        ],
+        [
+          "strikethrough",
+          true
+        ]
+      ]
+    }
+  ]
+}

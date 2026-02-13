@@ -1,0 +1,19 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "This is a long text that should wrap to multiple lines and show all content"
+    ],
+    [
+      "lineLimit",
+      3
+    ],
+    [
+      "frame",
+      {
+        "width": 120
+      }
+    ]
+  ]
+}

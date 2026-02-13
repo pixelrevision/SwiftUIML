@@ -1,0 +1,32 @@
+{
+  "type": "ZStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ]
+  ],
+  "children": [
+    {
+      "type": "ContainerRelativeShape",
+      "attributes": [
+        [
+          "foregroundColor",
+          "#34C75980"
+        ]
+      ]
+    },
+    {
+      "type": "ContainerRelativeShape",
+      "attributes": [
+        [
+          "stroke",
+          {
+            "color": "#34C759",
+            "lineWidth": 3
+          }
+        ]
+      ]
+    }
+  ]
+}

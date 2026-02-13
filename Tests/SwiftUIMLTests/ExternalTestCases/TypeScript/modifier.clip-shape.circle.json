@@ -1,0 +1,42 @@
+{
+  "type": "Image",
+  "attributes": [
+    [
+      "systemName",
+      "star.fill"
+    ],
+    [
+      "resizable",
+      true
+    ],
+    [
+      "foregroundColor",
+      "#FFD60A:#FFD60A"
+    ],
+    [
+      "frame",
+      {
+        "width": 80,
+        "height": 80
+      }
+    ],
+    [
+      "clipShape",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Circle",
+          "attributes": [
+            [
+              "frame",
+              {
+                "width": 50,
+                "height": 50
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ]
+}

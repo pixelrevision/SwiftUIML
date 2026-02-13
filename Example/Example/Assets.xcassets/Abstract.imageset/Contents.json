@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "colorful-abstract-desktop-4k-wallpaper-27.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "colorful-abstract-desktop-4k-wallpaper-27 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "colorful-abstract-desktop-4k-wallpaper-27 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

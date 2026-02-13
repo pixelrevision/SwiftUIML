@@ -1,0 +1,71 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Normal tracking"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Tight tracking"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ],
+        [
+          "tracking",
+          -2
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Loose tracking"
+        ],
+        [
+          "font",
+          {
+            "type": "system",
+            "size": 20
+          }
+        ],
+        [
+          "tracking",
+          5
+        ]
+      ]
+    }
+  ]
+}

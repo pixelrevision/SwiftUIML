@@ -1,0 +1,32 @@
+{
+  "type": "Text",
+  "attributes": [
+    [
+      "text",
+      "Opacity"
+    ],
+    [
+      "padding",
+      8
+    ],
+    [
+      "background",
+      {
+        "$type": "node",
+        "value": {
+          "type": "Color",
+          "attributes": [
+            [
+              "value",
+              "#007AFF:#0A84FF"
+            ]
+          ]
+        }
+      }
+    ],
+    [
+      "opacity",
+      0.2
+    ]
+  ]
+}

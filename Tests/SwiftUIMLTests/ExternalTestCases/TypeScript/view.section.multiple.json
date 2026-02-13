@@ -1,0 +1,86 @@
+{
+  "type": "List",
+  "attributes": [],
+  "children": [
+    {
+      "type": "Section",
+      "attributes": [
+        [
+          "header",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "First Section"
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 1"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "attributes": [
+        [
+          "header",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Text",
+              "attributes": [
+                [
+                  "text",
+                  "Second Section"
+                ]
+              ]
+            }
+          }
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 3"
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "Item 4"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

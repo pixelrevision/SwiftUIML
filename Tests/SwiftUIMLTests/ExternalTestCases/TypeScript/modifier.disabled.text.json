@@ -1,0 +1,53 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      16
+    ]
+  ],
+  "children": [
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Enabled Text"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#007AFF"
+        ]
+      ]
+    },
+    {
+      "type": "Text",
+      "attributes": [
+        [
+          "text",
+          "Disabled Text"
+        ],
+        [
+          "font",
+          "title2"
+        ],
+        [
+          "foregroundColor",
+          "#007AFF"
+        ],
+        [
+          "disabled",
+          true
+        ]
+      ]
+    }
+  ]
+}

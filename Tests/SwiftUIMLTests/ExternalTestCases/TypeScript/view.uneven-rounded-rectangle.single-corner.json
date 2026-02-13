@@ -1,0 +1,25 @@
+{
+  "type": "UnevenRoundedRectangle",
+  "attributes": [
+    [
+      "topLeading",
+      30
+    ],
+    [
+      "bottomLeading",
+      0
+    ],
+    [
+      "bottomTrailing",
+      0
+    ],
+    [
+      "topTrailing",
+      0
+    ],
+    [
+      "foregroundColor",
+      "#FF9500"
+    ]
+  ]
+}

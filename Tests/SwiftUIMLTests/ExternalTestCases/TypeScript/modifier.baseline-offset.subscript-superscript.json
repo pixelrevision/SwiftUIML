@@ -1,0 +1,165 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "bottom"
+        ],
+        [
+          "spacing",
+          2
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "H"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 32
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "2"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              -8
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "O"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 32
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HStack",
+      "attributes": [
+        [
+          "alignment",
+          "bottom"
+        ],
+        [
+          "spacing",
+          2
+        ]
+      ],
+      "children": [
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "E"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 32
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "="
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 32
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "mc"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 32
+              }
+            ]
+          ]
+        },
+        {
+          "type": "Text",
+          "attributes": [
+            [
+              "text",
+              "2"
+            ],
+            [
+              "font",
+              {
+                "type": "system",
+                "size": 20
+              }
+            ],
+            [
+              "baselineOffset",
+              8
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

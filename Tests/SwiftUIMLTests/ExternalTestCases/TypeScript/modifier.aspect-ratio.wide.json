@@ -1,0 +1,45 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      4
+    ]
+  ],
+  "children": [
+    {
+      "type": "Rectangle",
+      "attributes": [
+        [
+          "fill",
+          "#00AA00:#30D158"
+        ],
+        [
+          "aspectRatio",
+          {
+            "ratio": 2,
+            "contentMode": "fit"
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 80,
+            "height": 80
+          }
+        ],
+        [
+          "border",
+          {
+            "color": "#CCCCCC:#666666",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "AngularGradient",
+  "attributes": [
+    [
+      "colors",
+      [
+        "#FF000080",
+        "#00FF0080",
+        "#0000FF80",
+        "#FF000080"
+      ]
+    ],
+    [
+      "center",
+      "center"
+    ],
+    [
+      "startAngle",
+      0
+    ],
+    [
+      "endAngle",
+      360
+    ]
+  ]
+}

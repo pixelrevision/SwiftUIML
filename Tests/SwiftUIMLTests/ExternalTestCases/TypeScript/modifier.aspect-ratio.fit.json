@@ -1,0 +1,45 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "center"
+    ],
+    [
+      "spacing",
+      4
+    ]
+  ],
+  "children": [
+    {
+      "type": "Circle",
+      "attributes": [
+        [
+          "fill",
+          "#FF0000:#FF453A"
+        ],
+        [
+          "aspectRatio",
+          {
+            "ratio": 1,
+            "contentMode": "fit"
+          }
+        ],
+        [
+          "frame",
+          {
+            "width": 100,
+            "height": 60
+          }
+        ],
+        [
+          "border",
+          {
+            "color": "#CCCCCC:#666666",
+            "width": 1
+          }
+        ]
+      ]
+    }
+  ]
+}

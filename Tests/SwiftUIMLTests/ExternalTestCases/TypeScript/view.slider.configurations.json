@@ -1,0 +1,131 @@
+{
+  "type": "VStack",
+  "attributes": [
+    [
+      "alignment",
+      "leading"
+    ],
+    [
+      "spacing",
+      20
+    ],
+    [
+      "padding",
+      20
+    ]
+  ],
+  "children": [
+    {
+      "type": "Slider",
+      "attributes": [
+        [
+          "value",
+          0.5
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "Slider",
+      "attributes": [
+        [
+          "value",
+          0.75
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "Slider",
+      "attributes": [
+        [
+          "value",
+          50
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          100
+        ]
+      ]
+    },
+    {
+      "type": "Slider",
+      "attributes": [
+        [
+          "value",
+          5
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          10
+        ],
+        [
+          "step",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "Slider",
+      "attributes": [
+        [
+          "value",
+          0.6
+        ],
+        [
+          "minimumValue",
+          0
+        ],
+        [
+          "maximumValue",
+          1
+        ],
+        [
+          "padding",
+          8
+        ],
+        [
+          "background",
+          {
+            "$type": "node",
+            "value": {
+              "type": "Color",
+              "attributes": [
+                [
+                  "value",
+                  "#F0F0F0"
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          "cornerRadius",
+          6
+        ]
+      ]
+    }
+  ]
+}
