@@ -92,8 +92,8 @@ enum ShapeStyleApplicator {
       let colors = (gradientNode.attributes[.colors]?.array ?? [])
         .compactMap { Color($0) }
       let center = UnitPoint(gradientNode.attributes[.center]?.string) ?? .center
-      let startAngle = Angle(degrees: gradientNode.attributes[.startAngle]?.float ?? 0)
-      let endAngle = Angle(degrees: gradientNode.attributes[.endAngle]?.float ?? 360)
+      let startAngle = Angle(degrees: gradientNode.attributes[.startAngle]?.double ?? 0)
+      let endAngle = Angle(degrees: gradientNode.attributes[.endAngle]?.double ?? 360)
       return shape.fill(
         AngularGradient(colors: colors, center: center, startAngle: startAngle, endAngle: endAngle)
       )

@@ -5,10 +5,10 @@ public struct SliderRenderer: ViewRenderer {
   public static let type: ViewType = .slider
 
   public static func render(node: Node, context: RenderContext, messageHandler: MessageHandler?) -> any View {
-    let initialValue = node.attributes[.value]?.float ?? 0.5
-    let minimumValue = node.attributes[.minimumValue]?.float ?? 0.0
-    let maximumValue = node.attributes[.maximumValue]?.float ?? 1.0
-    let step = node.attributes[.step]?.float
+    let initialValue = node.attributes[.value]?.double ?? 0.5
+    let minimumValue = node.attributes[.minimumValue]?.double ?? 0.0
+    let maximumValue = node.attributes[.maximumValue]?.double ?? 1.0
+    let step = node.attributes[.step]?.double
     let onSliderChange = node.attributes[.onSliderChange]
 
     return SliderView(

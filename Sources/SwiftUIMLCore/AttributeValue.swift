@@ -197,7 +197,15 @@ public enum AttributeValue: Codable, Sendable {
     }
   }
 
-  public var float: Double? {
+  public var float: Float? {
+    switch self {
+    case .string(let string): Float(string)
+    case .number(let double): Float(double)
+    default: nil
+    }
+  }
+  
+  public var double: Double? {
     switch self {
     case .string(let string): Double(string)
     case .number(let double): Double(double)

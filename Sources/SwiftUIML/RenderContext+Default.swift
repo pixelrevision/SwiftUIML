@@ -180,7 +180,8 @@ extension RenderContext {
       GaugeRenderer.self,
       EmptyViewRenderer.self,
       MenuRenderer.self,
-      WebViewRenderer.self
+      WebViewRenderer.self,
+      SceneKitRenderer.self,
     )
   )
 }

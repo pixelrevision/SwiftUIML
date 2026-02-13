@@ -54,6 +54,7 @@ public extension ViewType {
   static let lazyHGrid = ViewType("LazyHGrid")
   static let tabView = ViewType("TabView")
   static let scrollView = ViewType("ScrollView")
+  static let sceneKit = ViewType("SceneKit")
   static let navigationStack = ViewType("NavigationStack")
   static let navigationLink = ViewType("NavigationLink")
   static let webView = ViewType("WebView")
@@ -83,6 +84,20 @@ public extension ViewType {
 
   // Conditional rendering
   static let colorScheme = ViewType("ColorScheme")
+
+  // SceneKit
+  static let skCube = ViewType("SKCube")
+  static let skSphere = ViewType("SKSphere")
+  static let skCylinder = ViewType("SKCylinder")
+  static let skCone = ViewType("SKCone")
+  static let skPlane = ViewType("SKPlane")
+  static let skTorus = ViewType("SKTorus")
+  static let skCapsule = ViewType("SKCapsule")
+  static let skPyramid = ViewType("SKPyramid")
+  static let skGroup = ViewType("SKGroup")
+  static let skCamera = ViewType("SKCamera")
+  static let skLight = ViewType("SKLight")
+  static let skTexture = ViewType("SKTexture")
 
   static func custom(_ value: String) -> ViewType {
     ViewType(value)

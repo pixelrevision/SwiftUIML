@@ -6,10 +6,10 @@ public struct StepperRenderer: ViewRenderer {
 
   public static func render(node: Node, context: RenderContext, messageHandler: MessageHandler?) -> any View {
     let label = node.attributes[.label]?.string ?? ""
-    let initialValue = node.attributes[.value]?.float ?? 0
-    let minimumValue = node.attributes[.minimumValue]?.float ?? 0
-    let maximumValue = node.attributes[.maximumValue]?.float ?? 100
-    let step = node.attributes[.step]?.float ?? 1
+    let initialValue = node.attributes[.value]?.double ?? 0
+    let minimumValue = node.attributes[.minimumValue]?.double ?? 0
+    let maximumValue = node.attributes[.maximumValue]?.double ?? 100
+    let step = node.attributes[.step]?.double ?? 1
     let onStepperChange = node.attributes[.onStepperChange]
 
     return StepperView(
