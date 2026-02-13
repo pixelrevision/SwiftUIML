@@ -4,7 +4,7 @@
 
 ## Overview
 
-SwiftUIML renders UI from data — whether that data comes from a remote server, a local database, an embedded JavaScript runtime, or anywhere else. But UI isn't just display — users tap buttons, fill in forms, and interact with components. Messages are how those interactions flow back to your app logic, and how your app logic can control rendered components in return.
+SwiftUIML renders UI from data - whether that data comes from a remote server, a local database, an embedded JavaScript runtime, or anywhere else. But UI isn't just display - users tap buttons, fill in forms, and interact with components. Messages are how those interactions flow back to your app logic, and how your app logic can control rendered components in return.
 
 SwiftUIML supports two-way messaging:
 - **Outbound (Component -> Host):** User interactions, lifecycle events, state changes
@@ -167,12 +167,12 @@ sequenceDiagram
     MessageQueue->>OtherComponent: .onMessage listener receives
     VideoPlayer->>VideoPlayer: Check: nodeId == "videoPlayer.0"?
     activate VideoPlayer
-    VideoPlayer->>VideoPlayer: ✓ Match - execute handler
+    VideoPlayer->>VideoPlayer: Match - execute handler
     VideoPlayer->>VideoPlayer: player.play()
     deactivate VideoPlayer
     OtherComponent->>OtherComponent: Check: nodeId == "videoPlayer.0"?
     activate OtherComponent
-    OtherComponent->>OtherComponent: ✗ No match - ignore
+    OtherComponent->>OtherComponent: No match - ignore
     deactivate OtherComponent
 ```
 

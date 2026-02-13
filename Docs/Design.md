@@ -28,8 +28,8 @@ public struct Node: Codable, Identifiable, Hashable {
 
 **Key differences from DOM:**
 - Attributes are **ordered** and **allow duplicates**
-- Duplicate keys enable chaining: `.frame(width: 100).frame(height: 200)` → two `frame` attributes
-- Order matters: `.padding().background()` ≠ `.background().padding()`
+- Duplicate keys enable chaining: `.frame(width: 100).frame(height: 200)` produces two `frame` attributes
+- Order matters: `.padding().background()` != `.background().padding()`
 - Immutable by default
 
 ### 3. Extensible Rendering System
@@ -147,7 +147,7 @@ All modifications return new instances:
 
 ### OrderedMultiDictionary: Design Choice
 
-The choice of `OrderedMultiDictionary` is fundamental to SwiftUIML's design. A standard dictionary would lose both attribute order and the ability to have duplicate keys — both of which are required to faithfully represent SwiftUI modifier chains.
+The choice of `OrderedMultiDictionary` is fundamental to SwiftUIML's design. A standard dictionary would lose both attribute order and the ability to have duplicate keys, both of which are required to faithfully represent SwiftUI modifier chains.
 
 #### Why Order and Duplicates Matter
 
@@ -234,11 +234,11 @@ let resolved = layout.resolve()
 
 **How resolution works:**
 
-1. **Style inheritance** — Styles can reference other styles via `.inherit`. Resolution walks the inheritance chain, merging parent attributes into children. Circular references are detected and broken gracefully.
-2. **Attribute merging** — Style attributes are inserted at the position of the `.style` key in the node's attribute list. Node attributes take precedence over style attributes when both define the same key.
-3. **Recursive application** — `resolve()` walks the entire node tree, applying styles to every node that references one.
+1. **Style inheritance** - Styles can reference other styles via `.inherit`. Resolution walks the inheritance chain, merging parent attributes into children. Circular references are detected and broken gracefully.
+2. **Attribute merging** - Style attributes are inserted at the position of the `.style` key in the node's attribute list. Node attributes take precedence over style attributes when both define the same key.
+3. **Recursive application** - `resolve()` walks the entire node tree, applying styles to every node that references one.
 
-**Threading consideration:** `resolve()` is a pure data transformation on immutable `Node` values with no SwiftUI dependency. This makes it safe to run off the main actor — and for large or deeply nested layouts, you should:
+**Threading consideration:** `resolve()` is a pure data transformation on immutable `Node` values with no SwiftUI dependency. This makes it safe to run off the main actor, and for large or deeply nested layouts, you should:
 
 ```swift
 let resolved = await Task.detached {
@@ -256,11 +256,11 @@ Style inheritance chains and recursive tree traversal can take non-trivial time 
 
 SwiftUIML is intentionally narrow in scope. What it **does not do:**
 
-1. **Cross-Platform UI Abstraction** — SwiftUI only, not for Android/Web
-2. **Layout Engine** — SwiftUI computes all layout
-3. **Component Library** — Provides building blocks, not opinionated components
-4. **State Management** — State lives in the host app
-5. **Validation/Schema** — Invalid or unrecognized nodes render as `EmptyView`, keeping the system forgiving and forward-compatible
+1. **Cross-Platform UI Abstraction** - SwiftUI only, not for Android/Web
+2. **Layout Engine** - SwiftUI computes all layout
+3. **Component Library** - Provides building blocks, not opinionated components
+4. **State Management** - State lives in the host app
+5. **Validation/Schema** - Invalid or unrecognized nodes render as `EmptyView`, keeping the system forgiving and forward-compatible
 
 ## Future Considerations
 

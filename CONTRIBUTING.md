@@ -10,7 +10,7 @@ Bug reports and feature requests are the most helpful way to contribute. Please 
 
 1. Open an issue first
 2. Run `make test && make lint` before submitting
-3. CI runs on maintainer PRs only — your PR will be tested after review
+3. CI runs on maintainer PRs only - your PR will be tested after review
 
 ## Code of Conduct
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-SwiftUIML provides DSLs in both Swift and TypeScript. Whether the JSON is produced on a server, in an embedded runtime, or anywhere else, both DSLs need to produce identical output for the same intent. If they diverge, bugs appear silently at runtime. The test infrastructure exists to catch these mismatches early — ensuring that both DSLs produce identical structures and that those structures render correctly.
+SwiftUIML provides DSLs in both Swift and TypeScript. Whether the JSON is produced on a server, in an embedded runtime, or anywhere else, both DSLs need to produce identical output for the same intent. If they diverge, bugs appear silently at runtime. The test infrastructure exists to catch these mismatches early, ensuring that both DSLs produce identical structures and that those structures render correctly.
 
 The test suite covers four areas:
 
