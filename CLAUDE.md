@@ -75,4 +75,4 @@ Prerequisites: iOS 18.4 simulator (auto-created by `Scripts/sim.sh`), [xcbeautif
 - 120 character line length (warning), 150 (error)
 - Trailing commas in multi-line collections
 - No force unwraps - use safe optional handling
-- No `print()` in production code
+- No `print()` in production code (`#Preview` blocks are exempt)

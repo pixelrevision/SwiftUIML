@@ -26,10 +26,14 @@ Work through `Sources/SwiftUIMLCore/ViewType.swift` for all views, then `Sources
 
 Create `AUDIT.md` with: executive summary, critical issues, missing tests, API inconsistencies, edge case gaps, detailed per-view/modifier review, and recommendations.
 
+## Snapshot Test Expectations
+
+Not all views and modifiers need snapshot tests. Behavioral-only components (e.g., NavigationStack, ScrollView, keyboard/input modifiers) whose effects are non-visual or require runtime interaction are fine without snapshot coverage. DSL unit tests and TypeResolution tests are sufficient for these. When reporting missing snapshot tests, note which are behavioral-only and treat them as informational, not action items.
+
 ## Guidelines
 
 - Check every view and modifier
 - Look for type mismatches between Swift and TypeScript
 - Verify attribute types match across languages
-- Flag TODOs, FIXMEs, and debug prints
+- Flag TODOs, FIXMEs, and debug prints (`#Preview` blocks are exempt)
 - Verify JSON round-trip works for new nodes
