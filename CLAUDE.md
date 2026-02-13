@@ -59,7 +59,7 @@ make lint          # SwiftLint + TypeScript format check
 make format        # Auto-fix formatting (Swift + TypeScript)
 ```
 
-Prerequisites: iOS 18.4 simulator (auto-created by `Scripts/sim.sh`), [xcbeautify](https://github.com/cpisciotta/xcbeautify), [swiftlint](https://github.com/realm/SwiftLint)
+Prerequisites: iOS 18.5 simulator (auto-created by `Scripts/sim.sh`), [xcbeautify](https://github.com/cpisciotta/xcbeautify), [swiftlint](https://github.com/realm/SwiftLint)
 
 ## Documentation
 

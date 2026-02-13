@@ -300,7 +300,7 @@ make tssnapshottest # TypeScript DSL cross-validation
 make tstest         # TypeScript unit tests
 ```
 
-**Prerequisites:** iOS 18.4 simulator (auto-created), [xcbeautify](https://github.com/cpisciotta/xcbeautify)
+**Prerequisites:** iOS 18.5 simulator, [xcbeautify](https://github.com/cpisciotta/xcbeautify)
 
 ## Installation
 
@@ -334,7 +334,7 @@ dependencies: [
 ## Platform Support
 
 - **Minimum:** iOS 17+, macOS 14+, Swift 5.9+
-- **Development/Testing:** iOS 18.4 simulator required for snapshot tests
+- **Development/Testing:** iOS 18.5 simulator required for snapshot tests
 - **SwiftUIMLCore** (data model & DSL): iOS 17+, macOS 14+, Linux
 - **SwiftUIML** (rendering): iOS 17+ only (requires SwiftUI)
 

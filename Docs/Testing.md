@@ -28,7 +28,7 @@ Tests data model, DSL, and serialization:
 
 ### 2. Snapshot Tests (`make snapshottest`)
 
-**Target:** `SwiftUIML` (requires iOS 18.4 simulator)
+**Target:** `SwiftUIML` (requires iOS 18.5 simulator)
 **Location:** `Tests/SwiftUIMLTests/`
 
 Visual regression tests:
@@ -154,7 +154,7 @@ make tssnapshottest # TypeScript cross-validation
 make tstest         # TypeScript unit tests
 ```
 
-**Prerequisites:** iOS 18.4 simulator (auto-created), [xcbeautify](https://github.com/cpisciotta/xcbeautify)
+**Prerequisites:** iOS 18.5 simulator (auto-created), [xcbeautify](https://github.com/cpisciotta/xcbeautify)
 
 ## Troubleshooting
 

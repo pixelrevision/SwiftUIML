@@ -180,14 +180,17 @@ Standard dictionaries **cannot represent this**.
 
 ```swift
 public struct OrderedMultiDictionary<Key: Hashable, Value> {
-  private var pairs: [(Key, Value)] = []
+  private var elements: [(key: Key, value: Value)] = []
+  private var keyIndices: [Key: [Int]] = [:]
 
   subscript(key: Key) -> Value? {
-    pairs.first { $0.0 == key }?.1  // O(n), returns first match
+    guard let indices = keyIndices[key], let first = indices.first else { return nil }
+    return elements[first].value
   }
 
-  func allValues(for key: Key) -> [Value] {
-    pairs.filter { $0.0 == key }.map { $0.1 }
+  func values(forKey key: Key) -> [Value] {
+    guard let indices = keyIndices[key] else { return [] }
+    return indices.map { elements[$0].value }
   }
 }
 ```
@@ -202,10 +205,7 @@ public struct OrderedMultiDictionary<Key: Hashable, Value> {
 ]
 ```
 
-**Performance:** O(n) lookup acceptable because:
-- Nodes rarely have >20 attributes
-- Rendering on state changes, not every frame
-- Type erasure dominates performance cost anyway
+**Performance:** O(1) key lookup via `keyIndices` hash map. Insertion order preserved in `elements` array. Supports duplicate keys with all indices tracked per key.
 
 #### Why Not Alternatives?
 
@@ -265,6 +265,5 @@ SwiftUIML is intentionally narrow in scope. What it **does not do:**
 ## Future Considerations
 
 Potential additions if blocking issues arise:
-- Index for OrderedMultiDictionary lookups (if profiling shows bottlenecks)
 - Developer tools (runtime inspector, JSON validation)
 - Additional platforms (macOS, watchOS, tvOS, visionOS)
