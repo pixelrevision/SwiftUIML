@@ -461,4 +461,29 @@ public extension Node {
   /// - color: Color string (hex or named color)
   /// - location: Position along the gradient from 0.0 to 1.0
   typealias ColorStop = (color: String, location: Double)
+
+  /// SceneKit light types
+  enum LightType: String, CaseIterable {
+    case omni
+    case directional
+    case spot
+    case ambient
+    case area
+    case probe
+    case ies
+  }
+
+  /// SceneKit texture wrapping modes
+  enum TextureWrapMode: String, CaseIterable {
+    case clamp
+    case `repeat`
+    case clampToBorder
+    case mirror
+  }
+
+  /// SceneKit texture filtering modes
+  enum TextureFilterMode: String, CaseIterable {
+    case nearest
+    case linear
+  }
 }

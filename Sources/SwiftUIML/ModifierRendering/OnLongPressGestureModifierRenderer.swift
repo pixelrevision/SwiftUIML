@@ -12,7 +12,7 @@ public struct OnLongPressGestureModifierRenderer: ModifierRenderer {
     var message = value
     var minimumDuration: Double = 0.5
 
-    if let dict = value.dict, let min = dict[.minimumDuration]?.float {
+    if let dict = value.dict, let min = dict[.minimumDuration]?.double {
       // Extract message and duration from dictionary
       message = dict[.message] ?? value
       minimumDuration = min

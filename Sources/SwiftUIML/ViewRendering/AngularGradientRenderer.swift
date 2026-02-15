@@ -6,8 +6,8 @@ public struct AngularGradientRenderer: ViewRenderer {
   public static func render(node: Node, context: RenderContext, messageHandler: MessageHandler?) -> any View {
     // Parse center and angle values (default: center point, 0°->360°)
     let center = UnitPoint(node.attributes[.center]?.string) ?? .center
-    let startAngle = Angle(degrees: node.attributes[.startAngle]?.float ?? 0)
-    let endAngle = Angle(degrees: node.attributes[.endAngle]?.float ?? 360)
+    let startAngle = Angle(degrees: node.attributes[.startAngle]?.double ?? 0)
+    let endAngle = Angle(degrees: node.attributes[.endAngle]?.double ?? 360)
 
     // Check for color stops first (precise positioning)
     if let stopsArray = node.attributes[.colorStops]?.array {
